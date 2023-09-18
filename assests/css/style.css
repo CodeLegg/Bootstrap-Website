@@ -1,0 +1,23 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ /* Custom styles for the logo in the navigation bar */
+.navbar-logo-container {
+            margin-left: auto; /* Push the logo to the right */
+        }
+
+.navbar-logo {
+            width: 75px; /* Set the width of the logo */
+            max-width: 40px;
+        }
+        
