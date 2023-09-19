@@ -62,6 +62,48 @@ body {
   font-size: 18px;
   margin-bottom: 20px;
 }
+/* contact ection squares */
+.contact-square {
+  /* Add your styles for the contact squares here */
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  height: 500px; /* Set the height to match the width for a square */
+}
+
+/*=======*\
+        FOOTER
+     \*=======*/
+footer {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  padding: 30px 0;
+}
+
+.footer-section {
+  padding: 20px 0;
+}
+
+.footer-section h6 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer-social-icons a:last-child {
+  margin-right: 0;
+}
 
 /*=======*\
 WORKOUT PAGES
@@ -117,14 +159,42 @@ header {
 /* Responsive adjustments for screens between 768px and 991px */
 @media (max-width: 991px) {
   .hero-content {
-    left: 5%; /* Adjust left margin for smaller screens */
+    /* Adjust left margin for smaller screens */
+    left: 5%;
   }
 
   .hero h1 {
-    font-size: 24px; /* Reduce font size for smaller screens */
+    /* Reduce font size for smaller screens */
+    font-size: 24px;
   }
 
   .hero p {
-    font-size: 14px; /* Reduce font size for smaller screens */
+    /* Reduce font size for smaller screens */
+    font-size: 14px;
+  }
+}
+/* Responsive adjustments for mobile view (up to 767px) */
+@media (max-width: 767px) {
+  .contact-square h3 {
+    /* Reduce font size for smaller screens (mobile) */
+    font-size: 16px;
+  }
+
+  .contact-square p {
+    /* Reduce font size for smaller screens (mobile) */
+    font-size: 14px;
+  }
+}
+
+/* Responsive adjustments for screens between 768px and 991px (Tablet) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact-square h3 {
+    /* Increase font size for tablets */
+    font-size: 18px;
+  }
+
+  .contact-square p {
+    /* Increase font size for tablets */
+    font-size: 16px;
   }
 }
