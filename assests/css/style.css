@@ -31,6 +31,14 @@
     white-space: nowrap;
 
 }
+  .hero {
+     position: relative;
+        }
+  .hero img {
+            object-fit: cover;
+            width: 100%;
+            max-height: 100vh; /* Ensure the image covers the entire viewport height */
+        }
 
 .hero-content{position: absolute;
 top: 50%;
