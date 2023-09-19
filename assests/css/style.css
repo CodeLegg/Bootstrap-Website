@@ -1,78 +1,110 @@
-  body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
 }
 /*=======*\
    NAVBAR
 \*=======*/
 
 .navbar {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
- /* Custom styles for the logo in the navigation bar */
+/* Custom styles for the logo in the navigation bar */
 .navbar-logo-container {
-            margin-left: auto; /* Push the logo to the right */
-        }
+  margin-left: auto; /* Push the logo to the right */
+}
 
 .navbar-logo {
-            width: 30px; /* Set the width of the logo */
-            max-width: 30px;
-        }
-.navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-weight: bold;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
-
+  width: 30px; /* Set the width of the logo */
+  max-width: 30px;
 }
-/* Top Hero Section */
-  .hero {
-     position: relative;
-        }
-  .hero img {
-            object-fit: cover;
-            width: 100%;
-            max-height: 100vh; /* Ensure the image covers the entire viewport height */
-        }
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+/*=======*\
+   HERO SECTION
+\*=======*/
+.hero {
+  position: relative;
+}
+.hero img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100vh; /* Ensure the image covers the entire viewport height */
+}
 
-.hero-content{position: absolute;
-top: 50%;
-left: 10%;
-transform: translateY(-50%);
-text-align: left;
-z-index: 2;}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  text-align: left;
+  z-index: 2;
+}
 
-      .hero h1 {
-            font-size: 36px;
-            margin-bottom: 10px;
-        }
-
-
-
-    
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
 
 
 
 
-             /* Responsive adjustments for screens between 768px and 991px */
-        @media (max-width: 991px) {
-            .hero-content {
-                left: 5%; /* Adjust left margin for smaller screens */
-            }
 
-            .hero h1 {
-                font-size: 24px; /* Reduce font size for smaller screens */
-            }
 
-            .hero p {
-                font-size: 14px; /* Reduce font size for smaller screens */
-            }
-        }
+
+/*=======*\
+WORKOUT PAGES
+\*=======*/
+.container {
+    padding: 20px;
+}
+header {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=======*\
+   MEDIA
+\*=======*/
+/* Responsive adjustments for screens between 768px and 991px */
+@media (max-width: 991px) {
+  .hero-content {
+    left: 5%; /* Adjust left margin for smaller screens */
+  }
+
+  .hero h1 {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  .hero p {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}
