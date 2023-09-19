@@ -18,6 +18,16 @@
 
 .navbar-logo {
             width: 75px; /* Set the width of the logo */
-            max-width: 40px;
+            max-width: 30px;
         }
-        
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+
+}
