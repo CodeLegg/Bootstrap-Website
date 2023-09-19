@@ -86,8 +86,14 @@ header {
     height: auto;
 }
 
-
-
+/* Aside styles */
+.wrapper aside {
+    text-align: center; /* Add this line */
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
 
 
 
