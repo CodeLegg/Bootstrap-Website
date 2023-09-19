@@ -1,6 +1,6 @@
-const audioSound1 = new Audio("sound1.mp3");
-const audioSound2 = new Audio("sound2.mp3");
-const audioSound3 = new Audio("sound3.mp3");
+const audioSound1 = new Audio("assests/sounds/sound-1.mp3");
+const audioSound2 = new Audio("assests/sounds/sound-2.mp3");
+const audioSound3 = new Audio("assests/sounds/sound-3.mp3");
 
 const playButtonSound1 = document.getElementById("play-button-sound1");
 const playButtonSound2 = document.getElementById("play-button-sound2");
