@@ -103,6 +103,13 @@ header {
     flex-wrap: wrap;
 }
 
+.wrapper aside,
+.wrapper table.myTbl {
+    flex: 1;
+    min-width: calc(50% - 20px); /* 50% width for two items with a 20px gap in between */
+    box-sizing: border-box;
+}
+
 
 
 
