@@ -31,6 +31,7 @@
     white-space: nowrap;
 
 }
+/* Top Hero Section */
   .hero {
      position: relative;
         }
@@ -46,3 +47,8 @@ left: 10%;
 transform: translateY(-50%);
 text-align: left;
 z-index: 2;}
+
+      .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
