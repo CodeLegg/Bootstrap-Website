@@ -56,3 +56,21 @@ z-index: 2;}
 
 
     
+
+
+
+
+             /* Responsive adjustments for screens between 768px and 991px */
+        @media (max-width: 991px) {
+            .hero-content {
+                left: 5%; /* Adjust left margin for smaller screens */
+            }
+
+            .hero h1 {
+                font-size: 24px; /* Reduce font size for smaller screens */
+            }
+
+            .hero p {
+                font-size: 14px; /* Reduce font size for smaller screens */
+            }
+        }
