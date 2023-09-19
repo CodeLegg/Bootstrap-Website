@@ -95,6 +95,13 @@ header {
     box-sizing: border-box;
 }
 
+/* Wrapper styles */
+.wrapper {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
 
 
 
