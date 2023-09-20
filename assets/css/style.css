@@ -107,7 +107,6 @@ button:focus {
 footer {
   background-color: #333; /* Background color */
   color: #fff; /* Text color */
-  padding: 30px 0;
 }
 
 .footer-section {
@@ -145,7 +144,7 @@ footer {
 /*============*\
   WORKOUT BLOG PAGES
 \*============*/
-.container {
+.container-workout {
   padding: 40px;
   margin: 0 auto;
   max-width: 100%;
