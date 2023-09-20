@@ -1,70 +1,67 @@
-const audio1 = new Audio("assets/sounds/sound-1.mp3");
-const audio2 = new Audio("");
-const audio3 = new Audio("");
+// Define the audio elements
+const audio1 = document.getElementById("audio-sound1");
+const audio2 = document.getElementById("audio-sound2");
+const audio3 = document.getElementById("audio-sound3");
 
-const playButtonSound1 = document.getElementById("play-button-sound1");
-const playButtonSound2 = document.getElementById("play-button-sound2");
-const playButtonSound3 = document.getElementById("play-button-sound3");
+// Define the play buttons and their corresponding icons
+const playButton1 = document.getElementById("play-button-sound1");
+const playPauseIcon1 = document.getElementById("play-pause-icon-sound1");
 
-const playPauseIconSound1 = document.getElementById("play-pause-icon-sound1");
-const playPauseIconSound2 = document.getElementById("play-pause-icon-sound2");
-const playPauseIconSound3 = document.getElementById("play-pause-icon-sound3");
+const playButton2 = document.getElementById("play-button-sound2");
+const playPauseIcon2 = document.getElementById("play-pause-icon-sound2");
 
-let isPlayingSound1 = false;
-let isPlayingSound2 = false;
-let isPlayingSound3 = false;
+const playButton3 = document.getElementById("play-button-sound3");
+const playPauseIcon3 = document.getElementById("play-pause-icon-sound3");
 
-playButtonSound1.addEventListener("click", function () {
-  if (isPlayingSound1) {
-    audio1.pause();
+// Initialize play status for each audio
+let isPlaying1 = false;
+let isPlaying2 = false;
+let isPlaying3 = false;
+
+// Function to toggle play/pause
+function togglePlay(audio, playPauseIcon) {
+  if (audio.paused) {
+    audio.play();
+    playPauseIcon.classList.remove("fa-circle-play");
+    playPauseIcon.classList.add("fa-circle-pause"); // Corrected class names
   } else {
-    audio1.play();
-  }
-  isPlayingSound1 = !isPlayingSound1;
-  updatePlayPauseIcon(playPauseIconSound1, isPlayingSound1);
-});
-
-playButtonSound2.addEventListener("click", function () {
-  if (isPlayingSound2) {
-    audio2.pause();
-  } else {
-    audio2.play();
-  }
-  isPlayingSound2 = !isPlayingSound2;
-  updatePlayPauseIcon(playPauseIconSound2, isPlayingSound2);
-});
-
-playButtonSound3.addEventListener("click", function () {
-  if (isPlayingSound3) {
-    audio3.pause();
-  } else {
-    audio3.play();
-  }
-  isPlayingSound3 = !isPlayingSound3;
-  updatePlayPauseIcon(playPauseIconSound3, isPlayingSound3);
-});
-
-function updatePlayPauseIcon(iconElement, isPlaying) {
-  if (isPlaying) {
-    iconElement.classList.remove("fa-play-circle");
-    iconElement.classList.add("fa-pause-circle");
-  } else {
-    iconElement.classList.remove("fa-pause-circle");
-    iconElement.classList.add("fa-play-circle");
+    audio.pause();
+    playPauseIcon.classList.remove("fa-circle-pause"); // Corrected class names
+    playPauseIcon.classList.add("fa-circle-play");
   }
 }
 
+// Add click event listeners for each play button
+playButton1.addEventListener("click", function () {
+  togglePlay(audio1, playPauseIcon1);
+  isPlaying1 = !isPlaying1;
+});
+
+playButton2.addEventListener("click", function () {
+  togglePlay(audio2, playPauseIcon2);
+  isPlaying2 = !isPlaying2;
+});
+
+playButton3.addEventListener("click", function () {
+  togglePlay(audio3, playPauseIcon3);
+  isPlaying3 = !isPlaying3;
+});
+
+// Add event listeners to handle audio ending for each sound
 audio1.addEventListener("ended", function () {
-  isPlayingSound1 = false;
-  updatePlayPauseIcon(playPauseIconSound1, isPlayingSound1);
+  playPauseIcon1.classList.remove("fa-circle-pause");
+  playPauseIcon1.classList.add("fa-circle-play");
+  isPlaying1 = false;
 });
 
 audio2.addEventListener("ended", function () {
-  isPlayingSound2 = false;
-  updatePlayPauseIcon(playPauseIconSound2, isPlayingSound2);
+  playPauseIcon2.classList.remove("fa-circle-pause");
+  playPauseIcon2.classList.add("fa-circle-play");
+  isPlaying2 = false;
 });
 
 audio3.addEventListener("ended", function () {
-  isPlayingSound3 = false;
-  updatePlayPauseIcon(playPauseIconSound3, isPlayingSound3);
+  playPauseIcon3.classList.remove("fa-circle-pause");
+  playPauseIcon3.classList.add("fa-circle-play");
+  isPlaying3 = false;
 });
