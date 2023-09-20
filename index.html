@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assests/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     
   </head>
 
@@ -30,7 +30,7 @@
         <!-- Logo Image on the Left for Mobile View -->
         <div class="navbar-logo-container d-block d-lg-none ml-2">
           <img
-            src="assests/images/golds-gym-logo.png"
+            src="assets/images/golds-gym-logo.png"
             alt="Golds Gym Logo Man Curling Dumbbells"
             class="navbar-logo"
           />
@@ -39,7 +39,7 @@
           <!-- Logo Image on the Left for Desktop View -->
           <div class="navbar-logo-container d-none d-lg-block float-left mr-2">
             <img
-              src="assests/images/golds-gym-logo.png"
+              src="assets/images/golds-gym-logo.png"
               alt="Golds Gym Logo Man Curling Dumbbells"
               class="navbar-logo"
             />
@@ -353,43 +353,37 @@
     </section>
 
     <!-- Squares Row -->
-    <div class="row no-gutters">
-      <!-- Square 1 -->
-      <div class="col-lg-4 col-md-6">
-        <div
-          class="contact-square bg-primary d-flex flex-column align-items-center justify-content-center"
-        >
-          <h3>Sound 1</h3>
-          <p>"Your quote for Sound 1."</p>
-           <button id="play-button-sound1" aria-label="Play Sound 1">
-        <i id="play-pause-icon-sound1" class="fas fa-play-circle" style="color: #ffffff;"></i>
-    </button>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div
-          class="contact-square bg-primary d-flex flex-column align-items-center justify-content-center"
-        >
-          <h3>Sound 2</h3>
-          <p>"Your quote for Sound 2."</p>
-          <button id="play-button-sound2" aria-label="Play Sound 2">
-        <i id="play-pause-icon-sound2" class="fas fa-play-circle" style="color: #ffffff;"></i>
-    </button>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div
-          class="contact-square bg-primary d-flex flex-column align-items-center justify-content-center"
-        >
-          <h3>Sound 3</h3>
-          <p>"Your quote for Sound 3."</p>
-
-            <button id="play-button-sound3" aria-label="Play Sound 3">
-        <i id="play-pause-icon-sound3" class="fas fa-play-circle" style="color: #ffffff;"></i>
-    </button>
-        </div>
-      </div>
+<div class="row no-gutters">
+  <!-- Square 1 -->
+  <div class="col-lg-4 col-md-6">
+    <div class="contact-square bg-primary d-flex flex-column align-items-center justify-content-center">
+      <h3>Above Average</h3>
+      <p>"The difference between ordinary and extordinary is that little extra"</p>
+      <button id="play-button-sound1" aria-label="Play Sound 1">
+        <i id="play-pause-icon-sound1" class="fa-solid fa-circle-play" style="color: #ffffff;"></i>
+      </button>
     </div>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <div class="contact-square bg-primary d-flex flex-column align-items-center justify-content-center">
+      <h3>Sound 2</h3>
+      <p>"Your quote for Sound 2."</p>
+      <button id="play-button-sound2" aria-label="Play Sound 2">
+        <i id="play-pause-icon-sound2" class="fa-solid fa-circle-play" style="color: #ffffff;"></i>
+      </button>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-6">
+    <div class="contact-square bg-primary d-flex flex-column align-items-center justify-content-center">
+      <h3>Sound 3</h3>
+      <p>"Your quote for Sound 3."</p>
+      <button id="play-button-sound3" aria-label="Play Sound 3">
+        <i id="play-pause-icon-sound3" class="fa-solid fa-circle-play" style="color: #ffffff;"></i>
+      </button>
+    </div>
+  </div>
+</div>
+
 
     <footer>
       <div class="container">
@@ -521,8 +515,13 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="assests/js/thankyoumessage.js"></script>
-    <script src="assests/js/sliderautoplay.js"></script>
-    <script src="assests/js/playandpausebuttonforsound.js"></script>
+    <script src="assets/js/thankyoumessage.js"></script>
+    <script src="assets/js/sliderautoplay.js"></script>
+
+        <!-- Audio elements -->
+    <audio id="audio-sound1" src="assets/sounds/sound-1.mp3"></audio>
+    <audio id="audio-sound2" src="assets/sounds/sound-2.mp3"></audio>
+    <audio id="audio-sound3" src="assets/sounds/sound-3.mp3"></audio>
+    <script src="assets/js/playandpausebuttonforsound.js"></script>
   </body>
 </html>
