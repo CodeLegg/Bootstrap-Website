@@ -325,3 +325,18 @@ header {
     font-size: 16px;
   }
 }
+/* Responsive adjustments for screens between 768px and 991px (Tablet) */
+@media (min-width: 768px) and (max-width: 991px) {
+.card-body{padding: 1rem;}
+}
+
+@media (max-width: 768px) {
+    /* Remove margins from all cards */
+   /* Remove padding-right from all Bootstrap columns */
+[class^="col-"] {
+    padding-right: 0 !important;
+}
+
+}
+
+
