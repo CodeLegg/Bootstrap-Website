@@ -45,6 +45,18 @@ body {
     text-decoration: underline;
 }
 
+    .sticky-header {
+      position: absolute;
+      width: 100%;
+      z-index: 1000;
+      transition: top 0.3s;
+    }
+
+    .hero {
+      padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+    }
+
+    /* Add more styles as needed */
 
 
 
