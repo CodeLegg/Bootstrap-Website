@@ -25,8 +25,8 @@ body {
 }
 
 .navbar-logo {
-  width: 30px; /* Set the width of the logo */
-  max-width: 30px;
+  width: 50px; /* Set the width of the logo */
+  max-width: 50px;
 }
 .navbar-brand {
   display: inline-block;
@@ -39,9 +39,12 @@ body {
   line-height: inherit;
   white-space: nowrap;
 }
-a.navbar-brand {
-  margin-right: 3.7rem;
-}
+
+
+
+
+
+
 /*=======*\
    HERO SECTION
 \*=======*/
@@ -240,6 +243,9 @@ header {
             padding-right: 0;
             /* Remove right padding */
         }
+        a.navbar-brand {
+  margin-right: 1.5rem;
+}
     }
 
     .video-container {
