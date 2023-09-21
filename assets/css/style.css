@@ -471,6 +471,11 @@ header {
         margin-top: 108px;
     }
 }
-
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    h2.text-center.mb-4 {
+        font-size: 25px; /* Adjust the font size as needed */
+    }
+}
 
 
