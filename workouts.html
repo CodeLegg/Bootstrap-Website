@@ -19,71 +19,74 @@
 
 <body class="workouts-page">
     <!-- Navigation Bar with Hamburger Menu -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!-- Logo Image on the Left for Mobile View -->
-            <div class="navbar-logo-container d-block d-lg-none ml-2">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Logo Image on the Left for Mobile View -->
+        <div class="navbar-logo-container d-block d-lg-none ml-2">
+            <img src="assets/images/golds-gym-logo.png" alt="Golds Gym Logo Man Curling Dumbbells"
+                class="navbar-logo" />
+        </div>
+
+        <a class="navbar-brand" href="#">
+            <!-- Logo Image on the Left for Desktop View -->
+            <div class="navbar-logo-container d-none d-lg-block float-left mr-2 ">
                 <img src="assets/images/golds-gym-logo.png" alt="Golds Gym Logo Man Curling Dumbbells"
                     class="navbar-logo" />
             </div>
-    
-            <a class="navbar-brand" href="#">
-                <!-- Logo Image on the Left for Desktop View -->
-                <div class="navbar-logo-container d-none d-lg-block float-left mr-2 ">
-                    <img src="assets/images/golds-gym-logo.png" alt="Golds Gym Logo Man Curling Dumbbells"
-                        class="navbar-logo" />
-                </div>
-                <a class="navbar-brand" href="">Gold's Gym</a>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="workoutsDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Workouts
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="workoutsDropdown">
-                            <span class="dropdown-header">Bodybuilding</span>
-                            <!-- Submenu title -->
-                            <a class="dropdown-item" href="pushpulllegs.html">Push Pull Legs</a>
-                            <a class="dropdown-item" href="threeonethree.html">The 3-1-1</a>
-                            <a class="dropdown-item" href="full-body.html">Full-Body</a>
-                            <a class="dropdown-item" href="upper-lower.html">Upper/Lower</a>
-                            <a class="dropdown-item" href="cardio.html">Cardio</a>
-                            <a class="dropdown-item" href="bro-split.html">Bro Split</a>
-                            <div class="dropdown-divider"></div>
-                            <!-- Add a divider between Workout and Classes -->
-                            <span class="dropdown-header">Classes</span>
-                            <!-- Submenu title -->
-                            <a class="dropdown-item" href="yoga.html">Yoga</a>
-                            <!-- Class 1 -->
-                            <a class="dropdown-item" href="pilates.html">Pilates</a>
-                            <!-- Class 2 -->
-                            <a class="dropdown-item" href="zumba.html">Zumba</a>
-                            <!-- Class 3 -->
-                        </div>
-                    </li>
-    
+            <a class="navbar-brand" href="">Gold's Gym</a>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html#about">About Us</a>
+                    <a class="nav-link" href="#hero">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="workoutsDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Workouts
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="workoutsDropdown">
+                        <span class="dropdown-header">Workouts</span>
+                        <!-- Submenu title -->
+                        <a class="dropdown-item" href="workouts.html">All Workouts</a>
+                        <span class="dropdown-header">Bodybuilding</span>
+                        <!-- Submenu title -->
+                        <a class="dropdown-item" href="pushpulllegs.html">Push Pull Legs</a>
+                        <a class="dropdown-item" href="threeonethree.html">The 3-1-1</a>
+                        <a class="dropdown-item" href="full-body.html">Full-Body</a>
+                        <a class="dropdown-item" href="upper-lower.html">Upper/Lower</a>
+                        <a class="dropdown-item" href="cardio.html">Cardio</a>
+                        <a class="dropdown-item" href="bro-split.html">Bro Split</a>
+                        <div class="dropdown-divider"></div>
+                        <!-- Add a divider between Workout and Classes -->
+                        <span class="dropdown-header">Classes</span>
+                        <!-- Submenu title -->
+                        <a class="dropdown-item" href="yoga.html">Yoga</a>
+                        <!-- Class 1 -->
+                        <a class="dropdown-item" href="pilates.html">Pilates</a>
+                        <!-- Class 2 -->
+                        <a class="dropdown-item" href="zumba.html">Zumba</a>
+                        <!-- Class 3 -->
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html#cta">Sign Up</a>
+                    <a class="nav-link" href="signup.html">Sign Up</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html#contact">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+            </ul>
+        </div>
+    </nav>
+</header>
     
     <!-- Hero Section with Sliding Image Carousel -->
     <section id="hero" class="hero">
