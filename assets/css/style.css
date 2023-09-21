@@ -45,16 +45,7 @@ body {
     text-decoration: underline;
 }
 
-    .sticky-header {
-      position: absolute;
-      width: 100%;
-      z-index: 1000;
-      transition: top 0.3s;
-    }
-
-    .hero {
-      padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
-    }
+    
 
     /* Add more styles as needed */
 
@@ -359,6 +350,17 @@ header {
         }
 
         .navbar {justify-content: center;}
+
+        .sticky-header {
+      position: absolute;
+      width: 100%;
+      z-index: 1000;
+      transition: top 0.3s;
+    }
+
+    .hero {
+      padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+    }
     }
 
 /* Responsive adjustments for screens between 768px and 991px */
@@ -378,6 +380,17 @@ header {
     font-size: 14px;
   }
   .navbar {justify-content: center;}
+
+  .sticky-header {
+      position: absolute;
+      width: 100%;
+      z-index: 1000;
+      transition: top 0.3s;
+    }
+
+    .hero {
+      padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+    }
 }
 /* Responsive adjustments for mobile view (up to 767px) */
 @media (max-width: 767px) {
