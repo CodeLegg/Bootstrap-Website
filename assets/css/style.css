@@ -36,16 +36,10 @@ body {
 
 /* Style the active link */
 .navbar-nav .nav-item.active a.nav-link {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-    
-
-    /* Add more styles as needed */
-
-
-
-
+/* Add more styles as needed */
 
 /*=======*\
    HERO SECTION
@@ -143,13 +137,11 @@ footer {
   color: #fff;
   font-size: 24px;
   margin-right: 10px;
-  
 }
 
-.footer-social-icons a{
+.footer-social-icons a {
   margin-right: 0;
-    padding-bottom: 5px; /* Add padding to move the line down */
-
+  padding-bottom: 5px; /* Add padding to move the line down */
 }
 
 /* Add a class to the social icon links */
@@ -165,39 +157,37 @@ footer {
   margin-right: 0;
 }
 
-
-
 /* terms link page */
- /* Apply text-align: center to centralize text */
-    #terms-and-conditions,
-    #terms-and-conditions h3,
-    #terms-and-conditions p,
-    #terms-and-conditions ol,
-    #terms-and-conditions li,
-    .container-workout h1 {
-        text-align: center;
-    }
+/* Apply text-align: center to centralize text */
+#terms-and-conditions,
+#terms-and-conditions h3,
+#terms-and-conditions p,
+#terms-and-conditions ol,
+#terms-and-conditions li,
+.container-workout h1 {
+  text-align: center;
+}
 
-    /* Style headings and paragraphs within the section */
-    #terms-and-conditions h3 {
-        font-size: 18px;
-        margin-top: 20px;
-        margin-bottom: 10px;
-    }
+/* Style headings and paragraphs within the section */
+#terms-and-conditions h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
 
-    #terms-and-conditions p {
-        margin-bottom: 10px;
-    }
+#terms-and-conditions p {
+  margin-bottom: 10px;
+}
 
-    /* Style the ordered list (ol) and list items (li) */
-    #terms-and-conditions ol {
-        list-style-type: decimal;
-        margin-left: 20px;
-    }
+/* Style the ordered list (ol) and list items (li) */
+#terms-and-conditions ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
 
-    #terms-and-conditions li {
-        margin-bottom: 5px;
-    }
+#terms-and-conditions li {
+  margin-bottom: 5px;
+}
 /*======================================================================================*\
 
 
@@ -257,109 +247,124 @@ header {
 }
 
 /* Table (right column) styles */
-    .wrapper table.myTbl {
-        background-color: #fff;
-        border-radius: 5px;
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        box-sizing: border-box;
-        width: 100%;
-        /* Make tables take full width */
-    }
+.wrapper table.myTbl {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  width: 100%;
+  /* Make tables take full width */
+}
 
-    .wrapper table.myTbl th,
-    .wrapper table.myTbl td {
-        border: 1px solid #ccc;
-        padding: 8px;
-        text-align: left;
-    }
+.wrapper table.myTbl th,
+.wrapper table.myTbl td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
 
-    .wrapper table.myTbl th {
-        background-color: #f2f2f2;
-    }
+.wrapper table.myTbl th {
+  background-color: #f2f2f2;
+}
 
-    .wrapper table.myTbl th[colspan="2"] {
-        background-color: #e0e0e0;
-    }
+.wrapper table.myTbl th[colspan="2"] {
+  background-color: #e0e0e0;
+}
 
-    .wrapper table.myTbl tbody tr:nth-child(odd) {
-        background-color: #f9f9f9;
-    }
+.wrapper table.myTbl tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
 
-  
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* 9:16 aspect ratio (9 / 16 = 0.5625 or 56.25%) */
+}
 
-    .video-container {
-        position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
-        /* 9:16 aspect ratio (9 / 16 = 0.5625 or 56.25%) */
-    }
+.video-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
 
-    .video-container iframe {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-    }
-
-
-
+/* membership page */
+/* Style the trophy icons */
 
 
+.membership-tier {
+  text-align: center;
+}
 
+.membership-tier h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px; /* Adjust as needed */
+}
 
+#coppermembership {
+  -webkit-text-stroke: 0.3px #444; /* Text border (for WebKit browsers) */
+  color: #b87333 !important; /* Copper color */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+#bronzemembership {
+  color: #cd7f32 !important; /* Bronze color */
+  -webkit-text-stroke: 0.3px #444; /* Text border (for WebKit browsers) */
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+#silvermembership {
+  color: #c0c0c0 !important; /* Silver color */
+  -webkit-text-stroke: 0.3px #444; /* Text border (for WebKit browsers) */
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
+#goldmembership {
+  color: #ffd700 !important; /* Gold color */
+  -webkit-text-stroke: 0.3px #444; /* Text border (for WebKit browsers) */
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow */
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Style for list items */
+.membership-tier ul {
+  text-align: left;
+  margin-left: 20px;
+}
 
 /*=======*\
    MEDIA
-\*=======*/  
+\*=======*/
 
 /* mobile screens padding important */
-    @media (max-width: 767px) {
+@media (max-width: 767px) {
+  /* Remove padding for smaller screens (e.g., mobile devices) */
+  .container {
+    padding-left: 0;
+    /* Remove left padding */
+    padding-right: 0;
+    /* Remove right padding */
+  }
 
-        /* Remove padding for smaller screens (e.g., mobile devices) */
-        .container {
-            padding-left: 0;
-            /* Remove left padding */
-            padding-right: 0;
-            /* Remove right padding */
-        }
+  .navbar {
+    justify-content: center;
+  }
 
-        .navbar {justify-content: center;}
+  .sticky-header {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s;
+  }
 
-        .sticky-header {
-      position: absolute;
-      width: 100%;
-      z-index: 1000;
-      transition: top 0.3s;
-    }
+  .hero {
+    padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+  }
 
-    .hero {
-      padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
-    }
-
-     .paddingtopforstickyheader {
-      padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
-    }
-    }
+  .paddingtopforstickyheader {
+    padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+  }
+}
 /* Responsive adjustments for mobile view (up to 767px) */
 @media (max-width: 767px) {
   .contact-square h3 {
@@ -395,64 +400,63 @@ header {
     /* Reduce font size for smaller screens */
     font-size: 14px;
   }
-  .navbar {justify-content: center;}
+  .navbar {
+    justify-content: center;
+  }
 
   .sticky-header {
-      position: absolute;
-      width: 100%;
-      z-index: 1000;
-      transition: top 0.3s;
-    }
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s;
+  }
 
-    .hero {
-      padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
-    }
-    .paddingtopforstickyheader {
-      padding-top: 50px; /* Adjust as needed to avoid overlap with sticky header */
-    }
-      .signupmargin {
-        margin-top: 58px;
-    }
+  .hero {
+    padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+  }
+  .paddingtopforstickyheader {
+    padding-top: 50px; /* Adjust as needed to avoid overlap with sticky header */
+  }
+  .signupmargin {
+    margin-top: 58px;
+  }
 }
 @media (min-width: 992px) {
-    .margintop {
-        margin-top: 70px;
-    }
-    .signupmargin {
-        margin-top: 108px;
-    }
+  .margintop {
+    margin-top: 70px;
+  }
+  .signupmargin {
+    margin-top: 108px;
+  }
 }
 
 /* Add this CSS in your stylesheet */
 @media (max-width: 768px) {
-    /* Adjust the logo size for tablet and mobile views */
-    .header-image {
-        max-width: 100%;
-        height: auto;
-    }
-    
+  /* Adjust the logo size for tablet and mobile views */
+  .header-image {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
-    h2.text-center.mb-4 {
-        font-size: 25px; /* Adjust the font size as needed */
-    }
+  h2.text-center.mb-4 {
+    font-size: 25px; /* Adjust the font size as needed */
+  }
 }
 @media (max-width: 768px) {
-/* Remove padding-right from columns on the workouts.html page */
-.workouts-page [class^="col-"] {
+  /* Remove padding-right from columns on the workouts.html page */
+  .workouts-page [class^="col-"] {
     padding-right: 0.5;
     padding-left: 0.5;
-}
-
-
+  }
 }
 @media (max-width: 768px) {
-    .container {
-        padding-left: 15px; /* Adjust the left padding as needed */
-        padding-right: 15px; /* Adjust the right padding as needed */
-    }
+  .container {
+    padding-left: 15px; /* Adjust the left padding as needed */
+    padding-right: 15px; /* Adjust the right padding as needed */
+  }
 }
 /* Responsive adjustments for screens between 768px and 991px (Tablet) */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -468,13 +472,13 @@ header {
 }
 /* Responsive adjustments for screens between 768px and 991px (Tablet) */
 @media (min-width: 768px) and (max-width: 991px) {
-.card-body{padding: 1rem;}
+  .card-body {
+    padding: 1rem;
+  }
 }
 /* Media query for smaller screens */
 @media (max-width: 768px) {
-    .aboutworkoutclasses {
-        font-size: 25px; /* Adjust the font size as needed */
-    }
+  .aboutworkoutclasses {
+    font-size: 25px; /* Adjust the font size as needed */
+  }
 }
-
-
