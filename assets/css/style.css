@@ -396,7 +396,7 @@ header {
       padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
     }
     .paddingtopforstickyheader {
-      padding-top: 50px; /* Adjust as needed to avoid overlap with sticky header */
+      padding-top: 30px; /* Adjust as needed to avoid overlap with sticky header */
     }
 }
 /* Responsive adjustments for mobile view (up to 767px) */
