@@ -146,6 +146,38 @@ footer {
 .footer-social-icons a:last-child {
   margin-right: 0;
 }
+
+/* terms link page */
+ /* Apply text-align: center to centralize text */
+    #terms-and-conditions,
+    #terms-and-conditions h3,
+    #terms-and-conditions p,
+    #terms-and-conditions ol,
+    #terms-and-conditions li,
+    .container-workout h1 {
+        text-align: center;
+    }
+
+    /* Style headings and paragraphs within the section */
+    #terms-and-conditions h3 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #terms-and-conditions p {
+        margin-bottom: 10px;
+    }
+
+    /* Style the ordered list (ol) and list items (li) */
+    #terms-and-conditions ol {
+        list-style-type: decimal;
+        margin-left: 20px;
+    }
+
+    #terms-and-conditions li {
+        margin-bottom: 5px;
+    }
 /*======================================================================================*\
 
 
