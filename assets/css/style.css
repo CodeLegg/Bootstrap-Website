@@ -233,20 +233,7 @@ header {
         background-color: #f9f9f9;
     }
 
-    /* Add a new CSS rule to target mobile screens */
-    @media (max-width: 767px) {
-
-        /* Remove padding for smaller screens (e.g., mobile devices) */
-        .container {
-            padding-left: 0;
-            /* Remove left padding */
-            padding-right: 0;
-            /* Remove right padding */
-        }
-        a.navbar-brand {
-  margin-right: 1.5rem;
-}
-    }
+  
 
     .video-container {
         position: relative;
@@ -291,7 +278,22 @@ header {
 
 /*=======*\
    MEDIA
-\*=======*/
+\*=======*/  
+
+/* mobile screens padding important */
+    @media (max-width: 767px) {
+
+        /* Remove padding for smaller screens (e.g., mobile devices) */
+        .container {
+            padding-left: 0;
+            /* Remove left padding */
+            padding-right: 0;
+            /* Remove right padding */
+        }
+
+        .navbar {justify-content: center;}
+    }
+
 /* Responsive adjustments for screens between 768px and 991px */
 @media (max-width: 991px) {
   .hero-content {
@@ -308,6 +310,7 @@ header {
     /* Reduce font size for smaller screens */
     font-size: 14px;
   }
+  .navbar {justify-content: center;}
 }
 /* Responsive adjustments for mobile view (up to 767px) */
 @media (max-width: 767px) {
