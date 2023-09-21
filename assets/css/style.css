@@ -146,11 +146,29 @@ footer {
   color: #fff;
   font-size: 24px;
   margin-right: 10px;
+  
 }
 
-.footer-social-icons a:last-child {
+.footer-social-icons a{
+  margin-right: 0;
+    padding-bottom: 5px; /* Add padding to move the line down */
+
+}
+
+/* Add a class to the social icon links */
+.social-icon-link {
+  color: #fff; /* Text color */
+  margin-right: 10px;
+  text-decoration: none !important; /* Remove underline and override Bootstrap styles */
+  display: inline-block;
+  padding-bottom: 5px; /* Add padding to move the line down */
+}
+
+.social-icon-link:last-child {
   margin-right: 0;
 }
+
+
 
 /* terms link page */
  /* Apply text-align: center to centralize text */
