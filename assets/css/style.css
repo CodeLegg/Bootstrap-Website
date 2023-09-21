@@ -361,6 +361,10 @@ header {
     .hero {
       padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
     }
+
+     .signupcard {
+      padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+    }
     }
 
 /* Responsive adjustments for screens between 768px and 991px */
@@ -389,6 +393,9 @@ header {
     }
 
     .hero {
+      padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+    }
+    .signupcard {
       padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
     }
 }
