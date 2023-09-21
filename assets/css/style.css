@@ -396,7 +396,7 @@ header {
       padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
     }
     .paddingtopforstickyheader {
-      padding-top: 90px; /* Adjust as needed to avoid overlap with sticky header */
+      padding-top: 50px; /* Adjust as needed to avoid overlap with sticky header */
     }
 }
 /* Responsive adjustments for mobile view (up to 767px) */
@@ -462,7 +462,7 @@ header {
 }
 @media (min-width: 992px) {
     .margintop {
-        margin-top: 105px;
+        margin-top: 70px;
     }
 }
 
