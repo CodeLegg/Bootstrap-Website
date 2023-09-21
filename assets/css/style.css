@@ -398,6 +398,9 @@ header {
     .paddingtopforstickyheader {
       padding-top: 40px; /* Adjust as needed to avoid overlap with sticky header */
     }
+      .signupmargin {
+        margin-top: 58px;
+    }
 }
 /* Responsive adjustments for mobile view (up to 767px) */
 @media (max-width: 767px) {
@@ -463,6 +466,9 @@ header {
 @media (min-width: 992px) {
     .margintop {
         margin-top: 70px;
+    }
+    .signupmargin {
+        margin-top: 108px;
     }
 }
 
