@@ -40,6 +40,11 @@ body {
   white-space: nowrap;
 }
 
+/* Style the active link */
+.navbar-nav .nav-item.active a.nav-link {
+    text-decoration: underline;
+}
+
 
 
 
