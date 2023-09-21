@@ -362,7 +362,7 @@ header {
       padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
     }
 
-     .signupcard {
+     .paddingtopforstickyheader {
       padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
     }
     }
@@ -395,8 +395,8 @@ header {
     .hero {
       padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
     }
-    .signupcard {
-      padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+    .paddingtopforstickyheader {
+      padding-top: 90px; /* Adjust as needed to avoid overlap with sticky header */
     }
 }
 /* Responsive adjustments for mobile view (up to 767px) */
@@ -457,6 +457,12 @@ header {
     .header-image {
         max-width: 100%;
         height: auto;
+    }
+    
+}
+@media (min-width: 992px) {
+    .margintop {
+        margin-top: 105px;
     }
 }
 
