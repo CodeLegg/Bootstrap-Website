@@ -73,6 +73,11 @@ body {
   font-size: 18px;
   margin-bottom: 20px;
 }
+.btn-gold {
+  background-color: #edc700; /* Use your desired gold color */
+  color: white; /* Text color for contrast */
+  border: none; /* Remove the button border if needed */
+}
 
 /*===============*\
    ABOUT SECTION
@@ -456,6 +461,10 @@ header {
   .signupmargin {
     margin-top: 108px;
   }
+    .heroindexwork {
+    padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+  }
+
 }
 /* Media query for screens with a maximum width of 768px (tablet and mobile) */
 @media (max-width: 768px) {
@@ -512,7 +521,7 @@ header {
     transition: top 0.3s;
   }
 
-  .heroindextop {
+  .heroindexwork {
     padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
   }
 
