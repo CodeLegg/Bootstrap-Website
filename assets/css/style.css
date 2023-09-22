@@ -65,18 +65,34 @@ body {
 }
 
 .hero h1 {
-  font-size: 36px;
+  font-size: 44px;
   margin-bottom: 10px;
+  font-weight: 1000;
+  color: white;
+   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+
 }
+#goldh1hero{font-size: 42px;}
 
 .hero p {
   font-size: 18px;
   margin-bottom: 20px;
+  color: white;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+
 }
 .btn-gold {
   background-color: #edc700; /* Use your desired gold color */
-  color: white; /* Text color for contrast */
+  color: black; /* Text color for contrast */
   border: none; /* Remove the button border if needed */
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Light box shadow */
+
+}
+/* Add hover and focus styles for better interactivity */
+.btn-gold:hover, .btn-gold:focus {
+  background-color: #c7a600; /* Adjust the hover/focus color as needed */
 }
 
 /*===============*\
@@ -428,11 +444,9 @@ header {
     /* Reduce font size for smaller screens */
     font-size: 24px;
   }
+     #goldh1hero{font-size: 24px;}
 
-  .hero p {
-    /* Reduce font size for smaller screens */
-    font-size: 14px;
-  }
+
   .navbar {
     justify-content: center;
   }
@@ -576,6 +590,12 @@ header {
     /* Reduce font size for smaller screens */
     font-size: 20px;
   }
+   #goldh1hero{font-size: 20px;}
+
+  
+  }
+@media (max-width: 500px) {
+
 
   .hero p {
     /* Reduce font size for smaller screens */
@@ -583,6 +603,11 @@ header {
   }
   
   }
+@media screen and (min-width: 500px) {
+  .hero p {
+    font-size: 14px; /* Adjust the font size for 500px and above */
+  }
+}
 
 
 
@@ -614,5 +639,14 @@ header {
   .dropdown-menu {
     margin-top: 21px; /* Adjust the value to move it by the desired amount */
   }
+
+  #goldh1hero{font-size: 35px;}
+
+  .hero h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-weight: 1000;
 }
 
+}
+/* Media query for screens 500px and above */
