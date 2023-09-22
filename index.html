@@ -20,7 +20,7 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
 
-  
+
 </head>
 
 <body>
@@ -29,9 +29,9 @@
   <header class="sticky-header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <!-- Logo Image on the Left for Mobile View -->
-    <div class="navbar-logo-container d-block d-lg-none ml-2">
-      <img src="assets/images/golds-gym-logo.png" alt="Golds Gym Logo Man Curling Dumbbells" class="navbar-logo" />
-    </div>
+      <div class="navbar-logo-container d-block d-lg-none ml-2">
+        <img src="assets/images/golds-gym-logo.png" alt="Golds Gym Logo Man Curling Dumbbells" class="navbar-logo" />
+      </div>
 
       <a class="navbar-brand" href="#hero">
         <!-- Logo Image on the Left for Desktop View -->
@@ -147,12 +147,17 @@
       <div class="row">
         <div class="col-md-6">
           <h2>About Us</h2>
-          <p>Gold's Gym, a legendary fitness institution with a rich history spanning 45 years since its inception in 1965, stands as
-          a beacon of health and wellness. We have proudly served countless individuals on their transformative fitness journeys,
-          nurturing strength, vitality, and personal growth. With a commitment to excellence and an unwavering dedication to our
-          members, Gold's Gym continues to be a trusted partner in achieving fitness goals, making every day a step towards a
-          healthier, happier life. Join us in the pursuit of a better you, guided by our decades of expertise and passion for
-          fitness.</p>
+          <p>Gold's Gym, a legendary fitness institution with a rich history spanning 45 years since its inception in
+            1965, stands as
+            a beacon of health and wellness. We have proudly served countless individuals on their transformative
+            fitness journeys,
+            nurturing strength, vitality, and personal growth. With a commitment to excellence and an unwavering
+            dedication to our
+            members, Gold's Gym continues to be a trusted partner in achieving fitness goals, making every day a step
+            towards a
+            healthier, happier life. Join us in the pursuit of a better you, guided by our decades of expertise and
+            passion for
+            fitness.</p>
         </div>
         <div class="col-md-6">
           <!-- Sliding Image Carousel for About Us Section -->
@@ -232,12 +237,23 @@
           <form id="contactForm" action="#" method="post">
             <div class="form-group">
               <label for="name">Name</label>
-              <input type="text" class="form-control" id="name" name="name" required />
+              <input type="text" class="form-control" id="name" name="name" required pattern="^[a-zA-Z\s'-]+$"
+                title="Please enter a valid name" oninput="validateName(this)" />
             </div>
+
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" name="email" required />
+              <input type="email" class="form-control" id="email" name="email" required
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.(com|co\.uk|net)"
+                title="Please enter a valid email address with a .com, .co.uk, or .net domain" />
             </div>
+
+            <div class="form-group">
+              <label for="phone">Mobile Number</label>
+              <input type="tel" class="form-control" id="phone" name="phone" required pattern="[0-9]{11}"
+                title="Please enter a valid 11-digit mobile number" />
+            </div>
+
             <div class="form-group">
               <label for="message">Message</label>
               <textarea class="form-control" id="message" name="message" rows="4"></textarea>
@@ -270,29 +286,32 @@
     <!-- Square 1 -->
     <div class="col-lg-4 col-12">
       <div class="contact-square square-grey d-flex flex-column align-items-center justify-content-center">
-         <button id="play-button-sound1" aria-label="Play Sound 1">
+        <button id="play-button-sound1" aria-label="Play Sound 1">
           <i id="play-pause-icon-sound1" class="fa-solid fa-circle-play" style="color: #ffffff;"></i>
-        </button><h3 class="mt-4">Above Average</h3>
+        </button>
+        <h3 class="mt-4">Above Average</h3>
         <p>"Reaching deep down inside yourself and giving it your all"</p>
-       
+
       </div>
     </div>
     <div class="col-lg-4 col-12">
       <div class="contact-square square-gold d-flex flex-column align-items-center justify-content-center">
-         <button id="play-button-sound2" aria-label="Play Sound 2">
+        <button id="play-button-sound2" aria-label="Play Sound 2">
           <i id="play-pause-icon-sound2" class="fa-solid fa-circle-play" style="color: #ffffff;"></i>
-        </button><h3 class="mt-4">Moving Forward</h3>
+        </button>
+        <h3 class="mt-4">Moving Forward</h3>
         <p>"No failure is permanent unless you make it so"</p>
-       
+
       </div>
     </div>
     <div class="col-lg-4 col-12 ">
       <div class=" contact-square square-cyan d-flex flex-column align-items-center justify-content-center">
-         <button id="play-button-sound3" aria-label="Play Sound 3">
+        <button id="play-button-sound3" aria-label="Play Sound 3">
           <i id="play-pause-icon-sound3" class="fa-solid fa-circle-play" style="color: #ffffff;"></i>
-        </button><h3 class="mt-4">Train Hard</h3>
+        </button>
+        <h3 class="mt-4">Train Hard</h3>
         <p class="">"That boy needed bodybuilding he is a pyhsco"</p>
-       
+
       </div>
     </div>
   </div>
@@ -309,22 +328,22 @@
 
         <!-- Right -->
         <div>
-          <a href="https://en-gb.facebook.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank" >
+          <a href="https://en-gb.facebook.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
             <i class="fab fa-facebook-f"></i>
           </a>
-          <a href="https://twitter.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank" >
+          <a href="https://twitter.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="https://www.google.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank" >
+          <a href="https://www.google.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
             <i class="fab fa-google"></i>
           </a>
-          <a href="#" class="me-4 text-reset mr-2 social-icon-link" target="_blank" >
+          <a href="#" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="#" class="me-4 text-reset mr-2 social-icon-link" target="_blank" >
+          <a href="#" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
             <i class="fab fa-linkedin"></i>
           </a>
-          <a href="https://www.youtube.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank" >
+          <a href="https://www.youtube.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
             <i class="fab fa-youtube"></i>
           </a>
         </div>
