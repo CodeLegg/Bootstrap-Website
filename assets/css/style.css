@@ -659,3 +659,12 @@ header {
 
 }
 /* Media query for screens 500px and above */
+
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
