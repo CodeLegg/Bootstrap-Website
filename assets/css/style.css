@@ -41,6 +41,8 @@ body {
 
 .dropdown-menu{background: #fff;}
 
+
+
 /*=======*\
    HERO SECTION
 \*=======*/
@@ -597,3 +599,11 @@ header {
     font-size: 10px; /* Adjust the font size to your preference */
   }
 }
+/* Media query for screens larger than 992px (desktop view) */
+@media screen and (min-width: 993px) {
+  /* Add margin-top to the dropdown menu to move it down in desktop view at 992px and above */
+  .dropdown-menu {
+    margin-top: 21px; /* Adjust the value to move it by the desired amount */
+  }
+}
+
