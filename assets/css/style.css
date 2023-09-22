@@ -39,7 +39,26 @@ body {
   text-decoration: underline;
 }
 
-/* Add more styles as needed */
+/* Remove background and borders for the dropdown menu */
+.dropdown-menu {
+  background: none;
+  border: none; 
+  box-shadow: none; 
+  padding: 0; 
+}
+
+/* Style the dropdown items (links) */
+.dropdown-item {
+  color: #333; 
+  padding: 10px 20px; 
+  transition: background-color 0.3s;
+}
+
+/* Change the background color on hover */
+.dropdown-item:hover {
+  background-color: #f8f9fa; /* Change the background color on hover */
+}
+
 
 /*=======*\
    HERO SECTION
@@ -77,7 +96,7 @@ body {
 \*===============*/
 
 /*=========================*\
-   SIGN IN/JOIN US SECTION
+   JOIN US HERO
 \*=========================*/
 
 /*============================*\
@@ -157,7 +176,12 @@ footer {
   margin-right: 0;
 }
 
-/* terms link page */
+
+/*======================================================================================*\
+
+/*==========*\
+  TERMS PAGE
+\*==========*/
 /* Apply text-align: center to centralize text */
 #terms-and-conditions,
 #terms-and-conditions h3,
@@ -188,8 +212,6 @@ footer {
 #terms-and-conditions li {
   margin-bottom: 5px;
 }
-/*======================================================================================*\
-
 
 
 /*=============*\
@@ -399,6 +421,7 @@ header {
 
 
 
+
 /*=======*\
    MEDIA
 \*=======*/
@@ -566,4 +589,17 @@ header {
   
   }
 
+
+
+  @media (max-width: 457px) {
+    .phonemembercards {
+      display: block;
+    }
+  }
+
+  @media (min-width: 458px) {
+    .phonemembercards {
+      display: none;
+    }
+  }
 
