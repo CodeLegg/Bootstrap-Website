@@ -437,7 +437,7 @@ header {
     transition: top 0.3s;
   }
 
-  .hero {
+  .heroindexwork {
     padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
   }
   .paddingtopforstickyheader {
@@ -510,9 +510,12 @@ header {
     transition: top 0.3s;
   }
 
-  .hero,
-  .paddingtopforstickyheader {
+  .heroindextop {
     padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+  }
+
+  .paddingtopforstickyheader {
+    padding-top: 40px; /* Adjust as needed to avoid overlap with sticky header */
   }
 
   .contact-square h3,
