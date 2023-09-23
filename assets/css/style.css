@@ -14,8 +14,8 @@ body {
 .navbar {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
+}
 /* Custom styles for the logo in the navigation bar */
 .navbar-logo-container {
   margin-left: auto; /* Push the logo to the right */
