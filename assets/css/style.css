@@ -50,9 +50,7 @@ margin-right: 0;
     color: #edc700; /* Gold color */
 }
 /* Change the background color of active links inside the workout dropdown to gold */
-.navbar-light .navbar-nav .nav-item.dropdown:hover .dropdown-menu a.dropdown-item.active:hover {
-    background-color: #edc700; /* Gold color */
-    color: black; /* Text color (you can adjust this as needed) */}
+
 .navbar-light .navbar-nav .nav-item.dropdown:hover .dropdown-menu a.dropdown-item.hover {
     background-color: #edc700; /* Gold color */
     color: black; /* Text color (you can adjust this as needed) */
