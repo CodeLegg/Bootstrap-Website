@@ -37,11 +37,40 @@ body {
   line-height: inherit;
   white-space: nowrap;
 }
+a.navbar-brand {
+margin-right: 0;
+}
 
 .navbar-nav .nav-item.active a.nav-link {
   text-decoration: underline;
+   color: #edc700;
+}
+/* Change the hover color of the navigation links to gold */
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #edc700; /* Gold color */
+}
+/* Change the background color of active links inside the workout dropdown to gold */
+.navbar-light .navbar-nav .nav-item.dropdown:hover .dropdown-menu a.dropdown-item.active:hover {
+    background-color: #edc700; /* Gold color */
+    color: black; /* Text color (you can adjust this as needed) */}
+.navbar-light .navbar-nav .nav-item.dropdown:hover .dropdown-menu a.dropdown-item.hover {
+    background-color: #edc700; /* Gold color */
+    color: black; /* Text color (you can adjust this as needed) */
+}
+/* Change the background color of active links inside the workout dropdown to gold */
+.navbar-light .navbar-nav .nav-item.dropdown:hover .dropdown-menu a.dropdown-item:active {
+    background-color: #edc700; /* Gold color */
+    color: black; /* Text color (you can adjust this as needed) */
 }
 
+.navbar-light .navbar-nav .nav-item a.nav-link:focus {
+    outline: none; /* Remove the default focus outline */
+    color: #edc700; /* Apply your desired color */
+}
+
+
+a.dropdown-item.active{background-color: #edc700;
+    color: black; /* Text color (you can adjust this as needed) */}
 .dropdown-menu {
   background: #fff;
 }
@@ -203,6 +232,7 @@ button:focus {
 .social-icon-link:last-child {
   margin-right: 0;
 }
+.iframemap {width: 100%; height: 200px; border: 0;}
 
 /*********************************************
  *    MAIN STYLESHEET - TERMS    *
@@ -451,7 +481,13 @@ header {
  transform: scale(1.02); /* Scale the link on hover (you can adjust the scale factor) */
 }
 
-
+.badge-gold {
+    background-color: #edc700;  /* Set the background color to gold */
+    color: black;            /* Set the text color to black or any contrasting color */
+    padding: 3px 8px;        /* Add padding for spacing */
+    border-radius: 4px;      /* Add rounded corners for a badge appearance */
+    font-weight: bold;       /* Optionally, make the text bold */
+}
 
 
 #coppermembership {
@@ -544,8 +580,8 @@ html {
   }
 
   .workouts-page [class^="col-"] {
-    padding-right: 0.5;
-    padding-left: 0.5;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
 
   .container {
