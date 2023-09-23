@@ -96,8 +96,8 @@ body {
 .square-cyan {
   background-color: #14cfc9; /* Use your desired gold color */
 }
-.square-grey {
-  background-color: #333; /* Use your desired gold color */
+.square-pink {
+  background-color: #fe38f6; /* Use your desired gold color */
 }
 /* Add hover and focus styles for better interactivity */
 .btn-gold:hover, .btn-gold:focus {
@@ -136,10 +136,13 @@ button:focus {
 .fa-circle-play {
   font-size: 10em;
   margin-top: 30px;
+  color: #fff;
 }
 .fa-circle-pause {
   font-size: 10em;
   margin-top: 30px;
+    color: #fff;
+
 }
 
 /*=======*\
