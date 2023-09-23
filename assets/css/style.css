@@ -254,7 +254,11 @@ footer {
     /* padding-right: 15px;
     padding-left: 15px; */
 }
-
+@media (min-width: 768px) and (max-width: 1024px) {
+    .col-md-6 {
+        flex-basis: 50%; /* Two cards per row */
+    }
+}
 
 
 /*============*\
