@@ -1,13 +1,16 @@
+/*********************************************
+ *    MAIN STYLESHEET - GOLDSGYM    *
+ *********************************************/
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
 }
-/*=======*\
-   NAVBAR
-\*=======*/
 
+/*********************************************
+ *    MAIN STYLESHEET - NAVBAR    *
+ *********************************************/
 .navbar {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -22,6 +25,7 @@ body {
   width: 50px; /* Set the width of the logo */
   max-width: 50px;
 }
+
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
@@ -34,21 +38,21 @@ body {
   white-space: nowrap;
 }
 
-/* Style the active link */
 .navbar-nav .nav-item.active a.nav-link {
   text-decoration: underline;
 }
 
-.dropdown-menu{background: #fff;}
-
-
-
-/*=======*\
-   HERO SECTION
-\*=======*/
+.dropdown-menu {
+  background: #fff;
+}
+/*********************************************
+ *    MAIN STYLESHEET - HERO    *
+ *********************************************/
+/* Hero section styles */
 .hero {
   position: relative;
 }
+
 .hero img {
   object-fit: cover;
   width: 100%;
@@ -69,10 +73,12 @@ body {
   margin-bottom: 10px;
   font-weight: 1000;
   color: white;
-   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
-
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
 }
-#goldh1hero{font-size: 42px;}
+
+#goldh1hero {
+  font-size: 42px;
+}
 
 .hero p {
   font-size: 18px;
@@ -80,77 +86,81 @@ body {
   color: white;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
   font-weight: 600;
-
 }
 .btn-gold {
-  background-color: #edc700; /* Use your desired gold color */
-  color: black; /* Text color for contrast */
-  border: none; /* Remove the button border if needed */
+  background-color: #edc700;
+  color: black;
+  border: none;
   font-weight: bold;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Light box shadow */
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+.btn-gold:hover,
+.btn-gold:focus {
+  background-color: #c7a600;
+}
+
+/*********************************************
+ *    MAIN STYLESHEET - ABOUT    *
+ *********************************************/
+.aboutworkoutclasses {
+  font-size: 25px;
+}
+
+/*********************************************
+ *    MAIN STYLESHEET - SQUARES   *
+ *********************************************/
+
 .square-gold {
-  background-color: #edc700; /* Use your desired gold color */
+  background-color: #edc700;
 }
+
 .square-cyan {
-  background-color: #14cfc9; /* Use your desired gold color */
+  background-color: #14cfc9;
 }
+
 .square-pink {
-  background-color: #fe38f6; /* Use your desired gold color */
-}
-/* Add hover and focus styles for better interactivity */
-.btn-gold:hover, .btn-gold:focus {
-  background-color: #c7a600; /* Adjust the hover/focus color as needed */
+  background-color: #fe38f6;
 }
 
-/*===============*\
-   ABOUT SECTION
-\*===============*/
 
-/*=========================*\
-   JOIN US HERO
-\*=========================*/
-
-/*============================*\
-  CONTACT & AUDIO BUTTON ICONS
-\*============================*/
-
-/* contact ection squares */
-.contact-square {
-  /* Add your styles for the contact squares here */
-  text-align: center;
-  padding: 20px;
-  color: #fff;
-  height: 500px; /* Set the height to match the width for a square */
-}
 button {
   border: none;
-  outline: none; /* This removes the focus outline as well */
+  outline: none;
   background: none;
 }
 
 button:focus {
   outline: none;
 }
+
 .fa-circle-play {
   font-size: 10em;
   margin-top: 30px;
   color: #fff;
 }
+
 .fa-circle-pause {
   font-size: 10em;
   margin-top: 30px;
-    color: #fff;
-
+  color: #fff;
 }
 
-/*=======*\
-  FOOTER
-\*=======*/
-footer {
-  background-color: #333; /* Background color */
-  color: #fff; /* Text color */
+/*********************************************
+ *    MAIN STYLESHEET - CONTACT   *
+ *********************************************/
+ .contact-square {
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  height: 500px;
+}
+
+/*********************************************
+ *    MAIN STYLESHEET - FOOTER    *
+ *********************************************/
+ footer {
+  background-color: #333;
+  color: #fff;
 }
 
 .footer-section {
@@ -176,30 +186,25 @@ footer {
 
 .footer-social-icons a {
   margin-right: 0;
-  padding-bottom: 5px; /* Add padding to move the line down */
+  padding-bottom: 5px;
 }
 
-/* Add a class to the social icon links */
 .social-icon-link {
-  color: #fff; /* Text color */
+  color: #fff;
   margin-right: 10px;
-  text-decoration: none !important; /* Remove underline and override Bootstrap styles */
+  text-decoration: none !important;
   display: inline-block;
-  padding-bottom: 5px; /* Add padding to move the line down */
+  padding-bottom: 5px;
 }
 
 .social-icon-link:last-child {
   margin-right: 0;
 }
 
-
-/*======================================================================================*\
-
-/*==========*\
-  TERMS PAGE
-\*==========*/
-/* Apply text-align: center to centralize text */
-#terms-and-conditions,
+/*********************************************
+ *    MAIN STYLESHEET - TERMS    *
+ *********************************************/
+ #terms-and-conditions,
 #terms-and-conditions h3,
 #terms-and-conditions p,
 #terms-and-conditions ol,
@@ -229,56 +234,51 @@ footer {
   margin-bottom: 5px;
 }
 
+/*********************************************
+ *    MAIN STYLESHEET - ALL WORKOUT PAGE    *
+ *********************************************/
 
-/*=============*\
-   WORKOUT PAGE
-\*=============*/
-.workout-tier:hover{       transition: transform 0.2s; /* Add a smooth transition effect on the transform property */
- transform: scale(1.02); /* Scale the link on hover (you can adjust the scale factor) */
+ .workout-tier:hover {
+  transition: transform 0.2s;
+  transform: scale(1.02);
 }
 
 .custom-card-width {
-    width: 100%; /* Set your desired fixed width here, e.g., width: 300px; */
-    max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 .card-img-top {
-    object-fit: cover; /* This will make the image cover the entire card while maintaining its aspect ratio */
-    width: 100%;
-    height: 200px; /* Set the desired height for your cards */
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
 }
 
 /* For screens narrower than 395px in the workout rows */
 .workout-container .row > div[class^="col-"] {
-    max-width: 395px; /* Prevent cards from getting bigger */
+  max-width: 395px;
 }
 
 /* For screens from 768px to 1024px (tablet-sized screens) in the workout rows */
 .workout-container .row > div[class^="col-"] {
-    flex: 0 0 calc(50% - 15px); /* Two columns per row, accounting for gutter space */
-    max-width: calc(50% - 15px); /* Adjusted max-width */
+  flex: 0 0 calc(50% - 15px);
+  max-width: calc(50% - 15px);
 }
 
 /* For screens wider than 1024px (desktop-sized screens) in the workout rows */
 .workout-container .row > div[class^="col-"] {
-    flex: 0 0 calc(33.33% - 15px); /* Three columns per row, accounting for gutter space */
-    max-width: calc(33.33% - 15px); /* Adjusted max-width */
+  flex: 0 0 calc(33.33% - 15px);
+  max-width: calc(33.33% - 15px);
 }
 
 /* For screens wider than 1330px in the workout rows */
 .workout-container .row > div[class^="col-"] {
-    flex: 0 0 calc(33.33% - 15px); /* Three columns per row, accounting for gutter space */
-    max-width: calc(33.33% - 15px); /* Adjusted max-width */
+  flex: 0 0 calc(33.33% - 15px);
+  max-width: calc(33.33% - 15px);
 }
-
-
-
-
-
-
-/*============*\
-  WORKOUT BLOG PAGES
-\*============*/
+/*********************************************
+ *    MAIN STYLESHEET -  WORKOUT BLOG    *
+ *********************************************/
 .container-workout {
   padding: 40px;
   margin: 0 auto;
@@ -370,50 +370,15 @@ header {
   left: 0;
 }
 
-/* membership page */
-/* Style the trophy icons */
+/*********************************************
+ *    MAIN STYLESHEET - MEMBERSHIPS    *
+ *********************************************/
 
-.membership-tier {
-  text-align: center;
-}
-
-.membership-tier h5 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 10px; /* Adjust as needed */
-}
-
-#coppermembership {
-  -webkit-text-stroke: 0.3px #444; /* Text border (for WebKit browsers) */
-  color: #b87333 !important; /* Copper color */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow */
-}
-#bronzemembership {
-  color: #cd7f32 !important; /* Bronze color */
-  -webkit-text-stroke: 0.3px #444; /* Text border (for WebKit browsers) */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow */
-}
-#silvermembership {
-  color: #c0c0c0 !important; /* Silver color */
-  -webkit-text-stroke: 0.3px #444; /* Text border (for WebKit browsers) */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow */
-}
-#goldmembership {
-  color: #ffd700 !important; /* Gold color */
-  -webkit-text-stroke: 0.3px #444; /* Text border (for WebKit browsers) */
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow */
-}
-
-/* Style for list items */
 .membership-tier ul {
   text-align: left;
   margin-left: 20px;
 }
-.card.membership-tier {
-    border-radius: 10px; /* Adjust the border radius as needed */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the box shadow as needed */
-}
+
 
 /* membership cards */
 .text-center {
@@ -432,7 +397,20 @@ header {
   height: 350px;
   /* Adjust the height as needed */
   padding: 20px;
-  /* Add padding to the cards */
+  /* Add padding to the cards */  
+  text-align: center;
+}
+
+.card.membership-tier {
+    border-radius: 10px; /* Adjust the border radius as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the box shadow as needed */
+}
+
+.membership-tier h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 .centered-image {
     position: relative;
@@ -474,32 +452,46 @@ header {
 
 
 
+#coppermembership {
+  -webkit-text-stroke: 0.3px #444;
+  color: #b87333 !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#bronzemembership {
+  color: #cd7f32 !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#silvermembership {
+  color: #c0c0c0 !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#goldmembership {
+  color: #ffd700 !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
 
 
-
-
-
-
+/* Scroll behavior for HTML */
+html {
+  scroll-behavior: smooth;
+}
 /*=======*\
    MEDIA
 \*=======*/
 
-
-
-
-/* Responsive adjustments for screens between 768px and 991px */
+/* Common styles for smaller screens */
 @media (max-width: 991px) {
   .hero-content {
-    /* Adjust left margin for smaller screens */
     left: 5%;
   }
 
-  .hero h1 {
-    /* Reduce font size for smaller screens */
+  .hero h1,
+  #goldh1hero {
     font-size: 24px;
   }
-     #goldh1hero{font-size: 24px;}
-
 
   .navbar {
     justify-content: center;
@@ -512,62 +504,65 @@ header {
     transition: top 0.3s;
   }
 
-  .heroindexwork {
-    padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
-  }
+  .heroindexwork,
   .paddingtopforstickyheader {
-    padding-top: 40px; /* Adjust as needed to avoid overlap with sticky header */
+    padding-top: 70px;
   }
+
   .signupmargin {
     margin-top: 58px;
   }
 }
+
+/* Common styles for larger screens */
 @media (min-width: 991px) {
   .margintop {
     margin-top: 70px;
   }
-  .signupmargin {
-    margin-top: 108px;
-  }
-    .heroindexwork {
-    padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+
+  .signupmargin,
+  .heroindexwork {
+    padding-top: 70px;
   }
 
+  /* Increase font size for larger screens */
+  #goldh1hero,
+  .hero h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 1000;
+  }
 }
-/* Media query for screens with a maximum width of 768px (tablet and mobile) */
+
+/* Tablet and mobile styles */
 @media (max-width: 768px) {
-  /* Adjust the logo size for tablet and mobile views */
   .header-image {
     max-width: 100%;
     height: auto;
   }
 
-  /* Adjust the font size for h2 elements with text-center and mb-4 classes */
   h2.text-center.mb-4 {
-    font-size: 25px; /* Adjust the font size as needed */
+    font-size: 25px;
   }
 
-  /* Remove padding-right and padding-left from columns on the workouts.html page */
   .workouts-page [class^="col-"] {
     padding-right: 0.5;
     padding-left: 0.5;
   }
 
-  /* Adjust the left and right padding for all containers */
   .container {
-    padding-left: 15px; /* Adjust the left padding as needed */
-    padding-right: 15px; /* Adjust the right padding as needed */
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
-/* Responsive adjustments for screens between 768px and 991px (Tablet) */
+
+/* Tablet styles */
 @media (min-width: 768px) and (max-width: 991px) {
   .contact-square h3 {
-    /* Increase font size for tablets */
     font-size: 18px;
   }
 
   .contact-square p {
-    /* Increase font size for tablets */
     font-size: 16px;
   }
 
@@ -575,9 +570,9 @@ header {
     padding: 1rem;
   }
 }
+
+/* Mobile styles */
 @media (max-width: 767px) {
-  /* Remove padding for smaller screens (e.g., mobile devices) */
- 
   .navbar {
     justify-content: center;
   }
@@ -589,129 +584,100 @@ header {
     transition: top 0.3s;
   }
 
-  .heroindexwork {
-    padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
-  }
-
+  .heroindexwork,
   .paddingtopforstickyheader {
-    padding-top: 40px; /* Adjust as needed to avoid overlap with sticky header */
+    padding-top: 70px;
   }
 
   .contact-square h3,
   .contact-square p {
-    /* Reduce font size for smaller screens (mobile) */
     font-size: 16px;
   }
 
   .contact-square p {
-    /* Reduce font size for smaller screens (mobile) */
     font-size: 14px;
   }
 
   .contact-square {
-    /* Add your styles for the contact squares here */
     text-align: center;
     padding: 20px;
     color: #fff;
-    height: 300px; /* Set the height to match the width for a square */
+    height: 300px;
   }
 }
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  .aboutworkoutclasses {
-    font-size: 25px; /* Adjust the font size as needed */
-  }
 
-  /* Override the hover styles for smaller screens */
-  .membership-tier:hover {
-    transform: scale(1); /* Reset the scale on hover for smaller screens */
-  }
-  .workout-tier:hover{       transition: transform 0.2s; /* Add a smooth transition effect on the transform property */
- transform: scale(1); /* Scale the link on hover (you can adjust the scale factor) */
-}
-}
+/* Smaller screens */
 @media (max-width: 375px) {
-    /* Target screens with a maximum width of 375px or below */
+  .membership-tier h5,
+  .membership-tier p {
+    font-size: 14px;
+  }
 
-    /* Reduce the font size for the card title and text */
-    .membership-tier h5,
-    .membership-tier p {
-        font-size: 14px; /* Adjust the font size as needed */
-    }
+  .membership-tier .fa-trophy {
+    font-size: 24px;
+  }
 
-    /* Adjust the icon size */
-    .membership-tier .fa-trophy {
-        font-size: 24px; /* Adjust the icon size as needed */
-    }
-   .hero h1 {
-    /* Reduce font size for smaller screens */
+  #goldh1hero,
+  .hero h1 {
     font-size: 20px;
   }
-   #goldh1hero{font-size: 20px;}
+}
 
-  
-  }
 @media (max-width: 500px) {
-
-
   .hero p {
-    /* Reduce font size for smaller screens */
     display: none;
   }
-  
-  }
+}
+
+/* Screens 500px and above */
 @media screen and (min-width: 500px) {
   .hero p {
-    font-size: 14px; /* Adjust the font size for 500px and above */
+    font-size: 14px;
   }
 }
 
-
-
-  @media (max-width: 457px) {
-    .phonemembercards {
-      display: block;
-    }
+/* Styles for specific screen width */
+@media (max-width: 457px) {
+  .phonemembercards {
+    display: block;
   }
+}
 
-  @media (min-width: 458px) {
-    .phonemembercards {
-      display: none;
-    }
+@media (min-width: 458px) {
+  .phonemembercards {
+    display: none;
   }
-/* Media query for screens with a width of 320px or less */
+}
+
+/* Screens 320px or less */
 @media screen and (max-width: 320px) {
   .navbar li {
-    font-size: 12px; /* Reduce the font size for navbar links on screens 320px or less */
+    font-size: 12px;
   }
 
-  /* Reduce the font size for dropdown items on screens 320px or less */
   .dropdown-menu a.dropdown-item {
-    font-size: 10px; /* Adjust the font size to your preference */
+    font-size: 10px;
   }
 }
-/* Media query for screens larger than 992px (desktop view) */
+
+/* Desktop view (screens larger than 992px) */
 @media screen and (min-width: 993px) {
-  /* Add margin-top to the dropdown menu to move it down in desktop view at 992px and above */
   .dropdown-menu {
-    margin-top: 21px; /* Adjust the value to move it by the desired amount */
+    margin-top: 21px;
   }
 
-  #goldh1hero{font-size: 35px;}
-
+  #goldh1hero,
   .hero h1 {
-  font-size: 35px;
-  margin-bottom: 10px;
-  font-weight: 1000;
+    font-size: 35px;
+  }
 }
 
-}
-/* Media query for screens 500px and above */
-
-
+/* Scroll behavior for HTML */
 html {
   scroll-behavior: smooth;
 }
+
+/* Reset body styles */
 body {
   margin: 0;
   padding: 0;
