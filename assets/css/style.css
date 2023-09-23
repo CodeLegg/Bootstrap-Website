@@ -74,10 +74,12 @@ body {
   font-weight: 1000;
   color: white;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+   white-space: nowrap;
 }
 
 #goldh1hero {
   font-size: 42px;
+   white-space: nowrap;
 }
 
 .hero p {
@@ -86,6 +88,7 @@ body {
   color: white;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
   font-weight: 600;
+   white-space: nowrap;
 }
 .btn-gold {
   background-color: #edc700;
@@ -405,7 +408,6 @@ header {
     border-radius: 10px; /* Adjust the border radius as needed */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the box shadow as needed */
 }
-
 .membership-tier h5 {
   display: flex;
   align-items: center;
@@ -504,9 +506,11 @@ html {
     transition: top 0.3s;
   }
 
-  .heroindexwork,
-  .paddingtopforstickyheader {
+  .heroindexwork {
     padding-top: 70px;
+  }
+  .paddingtopforstickyheader {
+    padding-top: 40px;
   }
 
   .signupmargin {
@@ -520,17 +524,11 @@ html {
     margin-top: 70px;
   }
 
-  .signupmargin,
-  .heroindexwork {
-    padding-top: 70px;
+   .signupmargin {
+    margin-top: 108px;
   }
-
-  /* Increase font size for larger screens */
-  #goldh1hero,
-  .hero h1 {
-    font-size: 35px;
-    margin-bottom: 10px;
-    font-weight: 1000;
+    .heroindexwork {
+    padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
   }
 }
 
@@ -570,6 +568,12 @@ html {
     padding: 1rem;
   }
 }
+/* membership br */
+@media (min-width: 320px) and (max-width: 767px) {
+  .phonemembercards {
+    display: block;
+  }
+}
 
 /* Mobile styles */
 @media (max-width: 767px) {
@@ -584,9 +588,12 @@ html {
     transition: top 0.3s;
   }
 
-  .heroindexwork,
+ .heroindexwork {
+    padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+  }
+
   .paddingtopforstickyheader {
-    padding-top: 70px;
+    padding-top: 40px; /* Adjust as needed to avoid overlap with sticky header */
   }
 
   .contact-square h3,
@@ -636,19 +643,6 @@ html {
   }
 }
 
-/* Styles for specific screen width */
-@media (max-width: 457px) {
-  .phonemembercards {
-    display: block;
-  }
-}
-
-@media (min-width: 458px) {
-  .phonemembercards {
-    display: none;
-  }
-}
-
 /* Screens 320px or less */
 @media screen and (max-width: 320px) {
   .navbar li {
@@ -659,6 +653,26 @@ html {
     font-size: 10px;
   }
 }
+/* Common styles for screens 450px and above */
+@media (min-width: 450px) and (max-width: 767px) {
+  /* Target screens between 450px and 767px */
+
+  /* Adjust the width of the membership cards */
+  .membership-tier {
+    width: 390px;
+    height: 350px;
+    margin: 0 auto; /* Center the cards horizontally */
+
+  }
+}
+/* Display .phonemembercards at 991px and above */
+@media (min-width: 991px) {
+  .phonemembercards {
+    display: block;
+  }
+}
+
+
 
 /* Desktop view (screens larger than 992px) */
 @media screen and (min-width: 993px) {
@@ -669,6 +683,24 @@ html {
   #goldh1hero,
   .hero h1 {
     font-size: 35px;
+  }
+}
+
+/* Styles for screens 1700px and above in the hero section */
+@media (min-width: 2000px) {
+ #goldh1hero,
+  .hero h1 {
+    font-size: 65px;
+  }
+
+  .hero p {
+    font-size: 35px;
+  }
+
+  /* Increase button font size and padding */
+  .hero .btn-gold {
+    font-size: 24px; /* Adjust the font size as needed */
+    padding: 15px 30px; /* Adjust the padding as needed */
   }
 }
 
