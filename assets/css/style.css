@@ -248,36 +248,29 @@ footer {
     height: 200px; /* Set the desired height for your cards */
 }
 
-
-    @media (max-width: 395px) {
-    .row > div[class^="col-"] {
-        max-width: 395px; /* Prevent cards from getting bigger */
-    }
-}
-/* For screens from 768px to 1024px (tablet-sized screens) */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .row > div[class^="col-"] {
-        flex: 0 0 calc(50% - 15px); /* Two columns per row, accounting for gutter space */
-        max-width: calc(50% - 15px); /* Adjusted max-width */
-    }
+/* For screens narrower than 395px in the workout rows */
+.workout-container .row > div[class^="col-"] {
+    max-width: 395px; /* Prevent cards from getting bigger */
 }
 
-/* For screens wider than 1024px (desktop-sized screens) */
-@media (min-width: 1025px) {
-    .row > div[class^="col-"] {
-        flex: 0 0 calc(33.33% - 15px); /* Three columns per row, accounting for gutter space */
-        max-width: calc(33.33% - 15px); /* Adjusted max-width */
-    }
+/* For screens from 768px to 1024px (tablet-sized screens) in the workout rows */
+.workout-container .row > div[class^="col-"] {
+    flex: 0 0 calc(50% - 15px); /* Two columns per row, accounting for gutter space */
+    max-width: calc(50% - 15px); /* Adjusted max-width */
 }
-/* For screens wider than 1330px */
-@media (min-width: 1331px) {
-    .row > div[class^="col-"] {
-        flex: 0 0 calc(33.33% - 15px); /* Three columns per row, accounting for gutter space */
-        max-width: calc(33.33% - 15px); /* Adjusted max-width */
-    }
 
-
+/* For screens wider than 1024px (desktop-sized screens) in the workout rows */
+.workout-container .row > div[class^="col-"] {
+    flex: 0 0 calc(33.33% - 15px); /* Three columns per row, accounting for gutter space */
+    max-width: calc(33.33% - 15px); /* Adjusted max-width */
 }
+
+/* For screens wider than 1330px in the workout rows */
+.workout-container .row > div[class^="col-"] {
+    flex: 0 0 calc(33.33% - 15px); /* Three columns per row, accounting for gutter space */
+    max-width: calc(33.33% - 15px); /* Adjusted max-width */
+}
+
 
 
 
