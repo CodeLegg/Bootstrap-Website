@@ -49,14 +49,14 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#hero">Home</a>
+            <a class="nav-link smooth-scroll active" href="#hero" data-target="#hero">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="workoutsDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Workouts
             </a>
-            <div class="dropdown-menu" aria-labelledby="workoutsDropdown">
+            <div class="dropdown-menu nav-link-main" aria-labelledby="workoutsDropdown">
               <span class="dropdown-header">Workouts</span>
               <!-- Submenu title -->
               <a class="dropdown-item" href="workouts.html">All Workouts</a>
@@ -85,7 +85,7 @@
             <a class="nav-link smooth-scroll" href="#about" data-target="#about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="signup.html">Sign Up</a>
+            <a class="nav-link nav-link-main" href="signup.html">Sign Up</a>
           </li>
           <li class="nav-item">
             <a class="nav-link smooth-scroll" href="#contact" data-target="#contact">Contact</a>
@@ -181,7 +181,6 @@
 
   <!-- CTA Section with Background Image -->
   <section id="cta" class="hero">
-    <!-- Change the class to "hero" here -->
     <div id="ctaCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -198,7 +197,6 @@
           </div>
         </div>
         <div class="carousel-item">
-          <!-- Image should be 2560x1440 or desired aspect ratio -->
           <img src="assets/images/goldgym-woman-lat-pull.png" alt="Image 6" class="img-fluid">
           <div class="container hero-content">
             <div class="row">
@@ -211,7 +209,6 @@
           </div>
         </div>
         <div class="carousel-item">
-          <!-- Image should be 2560x1440 or desired aspect ratio -->
           <img src="assets/images/goldgym-woman-side-delt.png" alt="Image 6" class="img-fluid">
           <div class="container hero-content">
             <div class="row">
@@ -262,11 +259,9 @@
             </div>
             <div class="text-center"><button type="submit" class="btn btn-gold">Submit</button></div>
           </form>
-          <!-- Success message will be displayed here -->
           <div id="successMessage" class="mt-3"></div>
         </div>
         <div class="col-md-6 d-flex justify-content-center align-items-center">
-          <!-- Sliding Image Carousel for Contact Section -->
           <div id="contactCarousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -277,7 +272,6 @@
                 <img src="assets/images/goldgym-yellow-woman-banner.png" alt="gold gym woman jumping abstract picture"
                   class="img-fluid">
               </div>
-              <!-- Add more carousel items as needed with placeholder images -->
             </div>
           </div>
         </div>
@@ -295,7 +289,7 @@
         </button>
         <h3 class="mt-4">Above Average</h3>
         <p>"Reaching deep down inside yourself and giving it your all"</p>
-
+    <!-- Square 2 -->
       </div>
     </div>
     <div class="col-lg-4 col-12">
@@ -305,7 +299,7 @@
         </button>
         <h3 class="mt-4">Moving Forward</h3>
         <p>"No failure is permanent unless you make it so"</p>
-
+    <!-- Square 3 -->
       </div>
     </div>
     <div class="col-lg-4 col-12 ">
@@ -315,7 +309,6 @@
         </button>
         <h3 class="mt-4">Train Hard</h3>
         <p class="">"That boy needed bodybuilding he is a pyhsco"</p>
-
       </div>
     </div>
   </div>
@@ -356,7 +349,7 @@
       <!-- Section: Social media -->
     </div>
 
-    <!-- Section: Links  -->
+    <!-- Section: Links & Rows  -->
     <section>
       <div class="container text-center text-md-start">
         <!-- Grid row -->
@@ -447,6 +440,7 @@
   <audio id="audio-sound1" src="assets/sounds/sound-1.mp3"></audio>
   <audio id="audio-sound2" src="assets/sounds/sound-2.mp3"></audio>
   <audio id="audio-sound3" src="assets/sounds/sound-3.mp3"></audio>
+    <!-- Script elements -->
   <script src="assets/js/playandpausebuttonforsound.js"></script>
   <script src="assets/js/stickyheader.js"></script>
   <script src="assets/js/smoothscrolling.js"></script>
