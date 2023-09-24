@@ -14,18 +14,29 @@ function smoothScroll(target, offset) {
   }
 }
 
+// Function to add "active" class to the clicked navigation link
+function setActiveNavLink(target) {
+  const navLinks = document.querySelectorAll('.nav-link');
+  navLinks.forEach((link) => {
+    link.classList.remove('active');
+  });
+
+  const activeLink = document.querySelector(`[href="${target}"]`);
+  if (activeLink) {
+    activeLink.classList.add('active');
+  }
+}
+
 // Function to check if the hash in the URL matches a known target and apply the offset
 function checkHashAndScroll() {
   const hash = window.location.hash;
   let offset = 105; // Default offset
 
-  if (hash === '#about') {
-    offset = 105; // Set a different offset for the 'about' link
-  } else if (hash === '#contact') {
-    offset = 105; // Set a different offset for the 'contact' link
+  if (hash === '#about' || hash === '#contact' || hash === '#hero' || hash === '#workout' || hash === '#signup') {
+    offset = 105; // Set a different offset for specific links
+    smoothScroll(hash, offset);
+    setActiveNavLink(hash);
   }
-
-  smoothScroll(hash, offset);
 }
 
 // Add event listeners to anchor links with the "smooth-scroll" class
@@ -34,8 +45,9 @@ smoothScrollLinks.forEach((link) => {
   link.addEventListener('click', (e) => {
     e.preventDefault(); // Prevent the default link behavior
     const target = link.getAttribute('href');
-    const offset = 105; // Default offset
+    const offset = target === '#hero' ? 0 : 105; // Adjust offset for the "hero" link
     smoothScroll(target, offset);
+    setActiveNavLink(target);
   });
 });
 
