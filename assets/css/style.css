@@ -16,7 +16,6 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
 }
-/* Custom styles for the logo in the navigation bar */
 .navbar-logo-container {
   margin-left: auto; 
 }
@@ -51,13 +50,11 @@ margin-right: 0;
 .navbar-light .navbar-nav .nav-link:active {
     color: #000; 
 }
-/* Change the background color of active links inside the workout dropdown to black */
 
 .navbar-light .navbar-nav .nav-item.dropdown:hover .dropdown-menu a.dropdown-item.hover {
     background-color: #edc700; 
     color: black; 
 }
-/* Change the background color of active links inside the workout dropdown to gold */
 .navbar-light .navbar-nav .nav-item.dropdown:hover .dropdown-menu a.dropdown-item:active {
     background-color: #edc700; 
     color: black; 
@@ -248,7 +245,6 @@ button:focus {
   text-align: center;
 }
 
-/* Style headings and paragraphs within the section */
 #terms-and-conditions h3 {
   font-size: 18px;
   margin-top: 20px;
@@ -259,7 +255,6 @@ button:focus {
   margin-bottom: 10px;
 }
 
-/* Style the ordered list (ol) and list items (li) */
 #terms-and-conditions ol {
   list-style-type: decimal;
   margin-left: 20px;
@@ -324,7 +319,6 @@ header {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Blog Content styles */
 .centered-image {
   text-align: center;
   margin: 20px 0;
@@ -335,7 +329,6 @@ header {
   height: auto;
 }
 
-/* Aside styles */
 .wrapper aside {
   text-align: center;
   background-color: #f4f4f4;
@@ -344,7 +337,6 @@ header {
   box-sizing: border-box;
 }
 
-/* Wrapper styles */
 .wrapper {
   display: flex;
   gap: 20px;
@@ -361,7 +353,6 @@ header {
   box-sizing: border-box;
 }
 
-/* Table (right column) styles */
 .wrapper table.myTbl {
   background-color: #fff;
   border-radius: 5px;
@@ -413,7 +404,6 @@ header {
 }
 
 
-/* membership cards */
 .text-center {
   text-align: center;
   padding-left: 0;
@@ -423,7 +413,6 @@ header {
   list-style-position: inside;
 }
 
-/* Custom styles for the membership cards */
 .membership-tier {
   height: 350px;
   padding: 20px;
