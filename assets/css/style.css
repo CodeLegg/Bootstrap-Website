@@ -18,11 +18,11 @@ body {
 }
 /* Custom styles for the logo in the navigation bar */
 .navbar-logo-container {
-  margin-left: auto; /* Push the logo to the right */
+  margin-left: auto; 
 }
 
 .navbar-logo {
-  width: 50px; /* Set the width of the logo */
+  width: 50px; 
   max-width: 50px;
 }
 
@@ -45,33 +45,32 @@ margin-right: 0;
   text-decoration: underline;
    color: #000;
 }
-/* Change the hover color of the navigation links to gold */
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #000; /* Gold color */
+    color: #000;
 }
 .navbar-light .navbar-nav .nav-link:active {
-    color: #000; /* Gold color */
+    color: #000; 
 }
-/* Change the background color of active links inside the workout dropdown to gold */
+/* Change the background color of active links inside the workout dropdown to black */
 
 .navbar-light .navbar-nav .nav-item.dropdown:hover .dropdown-menu a.dropdown-item.hover {
-    background-color: #edc700; /* Gold color */
-    color: black; /* Text color (you can adjust this as needed) */
+    background-color: #edc700; 
+    color: black; 
 }
 /* Change the background color of active links inside the workout dropdown to gold */
 .navbar-light .navbar-nav .nav-item.dropdown:hover .dropdown-menu a.dropdown-item:active {
-    background-color: #edc700; /* Gold color */
-    color: black; /* Text color (you can adjust this as needed) */
+    background-color: #edc700; 
+    color: black; 
 }
 
 .navbar-light .navbar-nav .nav-item a.nav-link:focus {
-    outline: none; /* Remove the default focus outline */
-    color: #000; /* Apply your desired color */
-}
-
+    outline: none; 
+    color: #000; 
+  }
 
 a.dropdown-item.active{background-color: #edc700;
-    color: black; /* Text color (you can adjust this as needed) */}
+    color: black; 
+  }
 .dropdown-menu {
   background: #fff;
 }
@@ -86,7 +85,7 @@ a.dropdown-item.active{background-color: #edc700;
 .hero img {
   object-fit: cover;
   width: 100%;
-  max-height: 100vh; /* Ensure the image covers the entire viewport height */
+  max-height: 100vh;
 }
 
 .hero-content {
@@ -235,6 +234,8 @@ button:focus {
 }
 .iframemap {width: 100%; height: 200px; border: 0;}
 
+.iframeyt {border: 0;}
+
 /*********************************************
  *    MAIN STYLESHEET - TERMS    *
  *********************************************/
@@ -336,7 +337,7 @@ header {
 
 /* Aside styles */
 .wrapper aside {
-  text-align: center; /* Add this line */
+  text-align: center;
   background-color: #f4f4f4;
   padding: 20px;
   border-radius: 5px;
@@ -356,7 +357,7 @@ header {
   flex: 1;
   min-width: calc(
     50% - 20px
-  ); /* 50% width for two items with a 20px gap in between */
+  );
   box-sizing: border-box;
 }
 
@@ -367,7 +368,6 @@ header {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   width: 100%;
-  /* Make tables take full width */
 }
 
 .wrapper table.myTbl th,
@@ -393,7 +393,6 @@ header {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
-  /* 9:16 aspect ratio (9 / 16 = 0.5625 or 56.25%) */
 }
 
 .video-container iframe {
@@ -418,26 +417,22 @@ header {
 .text-center {
   text-align: center;
   padding-left: 0;
-  /* Remove default left padding for bullet points */
 }
 
 .text-center li {
   list-style-position: inside;
-  /* Center-align bullet points */
 }
 
 /* Custom styles for the membership cards */
 .membership-tier {
   height: 350px;
-  /* Adjust the height as needed */
   padding: 20px;
-  /* Add padding to the cards */  
   text-align: center;
 }
 
 .card.membership-tier {
-    border-radius: 10px; /* Adjust the border radius as needed */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the box shadow as needed */
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .membership-tier h5 {
   display: flex;
@@ -447,16 +442,16 @@ header {
 }
 .centered-image {
     position: relative;
-    width: 100%; /* Adjust the width as needed */
-    max-width: 1280px; /* Set the maximum width to match the placeholder's width */
-    margin: 0 auto; /* Center the container horizontally */
-    overflow: hidden; /* Hide any video overflow */
+    width: 100%; 
+    max-width: 1280px; 
+    margin: 0 auto; 
+    overflow: hidden; 
 }
 
 .centered-image img {
-    display: block; /* Ensure the image behaves like a block element */
-    width: 100%; /* Make the image responsive to the container's width */
-    height: auto; /* Maintain the image's aspect ratio */
+    display: block; 
+    width: 100%; 
+    height: auto; 
 }
 
 .centered-image iframe {
@@ -466,28 +461,25 @@ header {
     width: 100%;
     height: 100%;
 }
-/* Define the 'nostyle' class to remove default anchor styling */
-/* Define the 'nostyle' class to remove default anchor styling */
 .nostyle {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit text color from parent */
+    text-decoration: none; 
+    color: inherit; 
 }
 
-/* Define the hover state for the 'nostyle' class */
 .nostyle:hover {
-    text-decoration: none; /* Remove underline on hover */
-    color: inherit; /* Inherit text color from parent on hover */
+    text-decoration: none; 
+    color: inherit; 
 }
-.membership-tier:hover{       transition: transform 0.2s; /* Add a smooth transition effect on the transform property */
- transform: scale(1.02); /* Scale the link on hover (you can adjust the scale factor) */
+.membership-tier:hover{       transition: transform 0.2s; 
+ transform: scale(1.02); 
 }
 
 .badge-gold {
-    background-color: #edc700;  /* Set the background color to gold */
-    color: black;            /* Set the text color to black or any contrasting color */
-    padding: 3px 8px;        /* Add padding for spacing */
-    border-radius: 4px;      /* Add rounded corners for a badge appearance */
-    font-weight: bold;       /* Optionally, make the text bold */
+    background-color: #edc700;  
+    color: black;           
+    padding: 3px 8px;       
+    border-radius: 4px;      
+    font-weight: bold;      
 }
 
 
@@ -513,7 +505,6 @@ header {
 }
 
 
-/* Scroll behavior for HTML */
 html {
   scroll-behavior: smooth;
 }
@@ -705,7 +696,7 @@ html {
 
   }
 }
-/* Display .phonemembercards at 991px and above */
+/* Display .phonemembercards (membership br) at 991px and above */
 @media (min-width: 991px) {
   .phonemembercards {
     display: block;
