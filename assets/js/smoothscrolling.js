@@ -1,16 +1,18 @@
 // Function to handle smooth scrolling with an offset
 function smoothScroll(target, offset) {
   // Check if the target is within the current page
-  const targetElement = document.querySelector(target);
-  if (targetElement) {
-    const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - offset;
-    window.scrollTo({
-      top: targetPosition,
-      behavior: 'smooth',
-    });
-  } else {
-    // If the target is on another page or external link, navigate to that page
-    window.location.href = target;
+  if (target) {
+    const targetElement = document.querySelector(target);
+    if (targetElement) {
+      const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - offset;
+      window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth',
+      });
+    } else {
+      // If the target is on another page or external link, navigate to that page
+      window.location.href = target;
+    }
   }
 }
 
