@@ -43,11 +43,14 @@ margin-right: 0;
 
 .navbar-nav .nav-item.active a.nav-link {
   text-decoration: underline;
-   color: #edc700;
+   color: #000;
 }
 /* Change the hover color of the navigation links to gold */
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #edc700; /* Gold color */
+    color: #000; /* Gold color */
+}
+.navbar-light .navbar-nav .nav-link:active {
+    color: #000; /* Gold color */
 }
 /* Change the background color of active links inside the workout dropdown to gold */
 
@@ -63,7 +66,7 @@ margin-right: 0;
 
 .navbar-light .navbar-nav .nav-item a.nav-link:focus {
     outline: none; /* Remove the default focus outline */
-    color: #edc700; /* Apply your desired color */
+    color: #000; /* Apply your desired color */
 }
 
 
@@ -550,6 +553,9 @@ html {
   .signupmargin {
     margin-top: 58px;
   }
+    a.navbar-brand {
+    margin-right: 20px; /* or any other value you prefer */
+}
 }
 
 /* Common styles for larger screens */
@@ -704,8 +710,8 @@ html {
   .phonemembercards {
     display: block;
   }
-}
 
+}
 
 
 /* Desktop view (screens larger than 992px) */
