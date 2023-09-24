@@ -2,557 +2,594 @@
 <html lang="en">
 
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords"
-        content="Gold's Gym, fitness center, workout, exercise, strength training, health, wellness, gym membership, personal training, group fitness, nutrition, bodybuilding, cardio, yoga, Pilates, Zumba, health club, weightlifting, gym classes, fitness programs, gym near me, healthy lifestyle, fitness goals">
-    <meta name="description"
-        content="Gold's Gym - Your premier fitness destination for bodybuilding, cardio workouts, yoga, and more. Join us to achieve your fitness goals today.">
-    <meta name="author" content="Michael Legg">
-    <title>Zumba Workout</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Gold's Gym, fitness center, workout, exercise, strength training, health, wellness,
+         gym membership, personal training, group fitness, nutrition, bodybuilding, cardio, yoga, Pilates, 
+         Zumba, health club, weightlifting, gym classes, fitness programs, gym near me, healthy lifestyle, fitness goals">
+        <meta name="description" content="Gold's Gym - Your premier fitness destination for bodybuilding, 
+        cardio workouts, yoga, and more. Join us to achieve your fitness goals today.">
+        <meta name="author" content="Michael Legg">
+        <title>Zumba Workout</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
 
-</head>
+    </head>
 
-<body>
-    <!-- Navigation Bar with Hamburger Menu -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <!-- Logo Image on the Left for Mobile View -->
-            <div class="navbar-logo-container d-block d-lg-none ml-2">
-                <img src="assets/images/golds-gym-logo.png" alt="Golds Gym Logo Man Curling Dumbbells"
-                    class="navbar-logo">
-            </div>
-
-            <a class="navbar-brand" href="index.html">
-                <!-- Logo Image on the Left for Desktop View -->
-                <div class="navbar-logo-container d-none d-lg-block float-left mr-2 ">
-                    <img src="assets/images/golds-gym-logo.png" alt="Golds Gym Logo Man Curling Dumbbells"
-                        class="navbar-logo">
-                </div>
-            </a>                <a class="navbar-brand" href="index.html">Gold's Gym</a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle active" href="#" id="workoutsDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Workouts
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="workoutsDropdown">
-                            <span class="dropdown-header">Workouts</span>
-                            <!-- Submenu title -->
-                            <a class="dropdown-item" href="workouts.html">All Workouts</a>
-                            <span class="dropdown-header">Bodybuilding</span>
-                            <!-- Submenu title -->
-                            <a class="dropdown-item" href="pushpulllegs.html">Push Pull Legs</a>
-                            <a class="dropdown-item" href="threeonethree.html">The 3-1-3</a>
-                            <a class="dropdown-item" href="full-body.html">Full-Body</a>
-                            <a class="dropdown-item" href="upper-lower.html">Upper/Lower</a>
-                            <a class="dropdown-item" href="cardio.html">Cardio</a>
-                            <a class="dropdown-item" href="bro-split.html">Bro Split</a>
-                            <div class="dropdown-divider"></div>
-                            <!-- Add a divider between Workout and Classes -->
-                            <span class="dropdown-header">Classes</span>
-                            <!-- Submenu title -->
-                            <a class="dropdown-item" href="yoga.html">Yoga</a>
-                            <!-- Class 1 -->
-                            <a class="dropdown-item" href="pilates.html">Pilates</a>
-                            <!-- Class 2 -->
-                            <a class="dropdown-item active" href="zumba.html">Zumba</a>
-                            <!-- Class 3 -->
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="index.html#about" data-target="#about">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="signup.html">Sign Up</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link smooth-scroll" href="index.html#contact" data-target="#contact">Contact
-                            Us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-
-    <!-- Main Content -->
-    <main class="margintop">
-        <!-- Blog Content -->
-        <div class="paddingtopforstickyheader container-workout container mt-5">
-            <!-- Blog Title -->
-            <h1 class="text-center">Zumba Classes</h1>
-
-            <!-- Blog Post Image -->
-            <div class="centered-image">
-                <img src="assets/images/goldgym-zumba.png" alt="Placeholder Image" class="img-fluid rounded"
-                    width="1920" height="1080">
-            </div>
-            <!-- Blog Post Content -->
-            <div class="mt-4">
-                <!-- Centered Text -->
-                <div class="text-center mb-4">
-                    <p>"Zumba: The rhythm-infused path to vibrant fitness and dance-floor harmony.""</p>
+    <body>
+        <!-- Navigation Bar with Hamburger Menu -->
+        <header>
+            <nav
+                class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <!-- Logo Image on the Left for Mobile View -->
+                <div class="navbar-logo-container d-block d-lg-none ml-2">
+                    <img src="assets/images/golds-gym-logo.png" alt="Golds Gym Logo Man Curling Dumbbells" class="navbar-logo">
                 </div>
 
-                <!-- Subheading for First Paragraph -->
-                <h2 class="text-center aboutworkoutclasses">Why this Class?</h2>
-
-                <!-- Centered Text -->
-                <div class="text-center mb-4">
-                    <p class="px-2">"Zumba classes offer a dynamic and inclusive practice suitable for individuals of
-                        all levels, promoting a joyful fusion
-                        of body and rhythm through an exhilarating approach. This vibrant method not only boosts
-                        physical fitness but also
-                        uplifts your spirits, contributing to overall well-being and a sense of joy."</p>
-
-                    <p class="px-2">Zumba classes provide a dynamic and progressive journey towards holistic well-being,
-                        offering a vibrant practice that
-                        adapts to your unique needs. Committed to your continuous growth and joy, they are the perfect
-                        choice for those seeking
-                        improved health and an exhilarating sense of harmony.</p>
-                </div>
-
-                <!-- Workout Details Content -->
-                <div class="wrapper mt-4">
-                    <aside class="col-md-7">
-                        <h2 class="aboutworkoutclasses">About Zumba Classes</h2>
-                        <p>
-                            Zumba classes provide a versatile and invigorating approach to elevate your overall
-                            well-being. Crafted to engage both
-                            body and spirit, Zumba transcends physical fitness, fostering a comprehensive enhancement of
-                            your health and inner
-                            harmony. By incorporating dynamic movements and joyful rhythms, Zumba cultivates not only
-                            physical vitality but also
-                            mental clarity, emotional balance, and inner happiness.
-                        </p>
-                        <br>
-                        <p>
-                            Zumba classes provide a versatile and exhilarating approach to elevate your overall
-                            well-being. Designed to engage your
-                            body, mind, and spirit through lively dance moves and infectious rhythms, Zumba goes beyond
-                            physical fitness, nurturing
-                            a holistic enhancement of your health and inner balance. By incorporating energetic routines
-                            and uplifting music, Zumba
-                            helps you not only boost your physical vitality but also find mental clarity, emotional
-                            harmony, and inner joy.
-                        </p>
-                        <br>
-                        <p>
-                            Zumba classes stand out with their energetic and progressive approach. Each session is
-                            meticulously choreographed to
-                            ensure a harmonious fusion of body and rhythm while prioritizing enjoyment and well-being.
-                            As you continue with your
-                            Zumba practice, you'll experience gradual enhancements in your coordination, cardiovascular
-                            fitness, and overall dance
-                            skills, fostering continuous growth and joy in your journey toward a healthier and more
-                            vibrant you.
-                        </p>
-                        <br>
-                        <p>
-                            Incorporating Zumba into your fitness routine offers a multitude of benefits that go beyond
-                            the physical. The
-                            high-energy dance moves and infectious rhythms cultivate mental clarity and emotional
-                            well-being, helping you manage
-                            stress and enhance your focus in everyday life. Additionally, the emphasis on holistic
-                            wellness promotes a sense of
-                            balance, both mentally and physically, reducing the risk of injury and supporting your
-                            overall health journey.
-                        </p>
-                        <br>
-                        <p>
-                            Embarking on a Zumba journey begins with finding your own comfort zone and gradually
-                            progressing to ensure both safety
-                            and effectiveness. Seeking guidance from an experienced Zumba instructor or healthcare
-                            professional can provide you with
-                            personalized advice, ensuring that your dance practice aligns with your specific goals and
-                            needs. Dedication,
-                            mindfulness, and consistent effort will empower you to not only improve your dance skills
-                            but also experience heightened
-                            mental and emotional well-being through the joy of Zumba.
-                        </p>
-
-                        <div class="video-container">
-                            <!-- Embed the YouTube video using an iframe -->
-                            <iframe class="iframeyt" width="1920" height="1080" src="https://www.youtube.com/embed/2Y88algcyLY"
-                                 allowfullscreen ></iframe>
-                        </div>
-
-
-                    </aside>
-                    <!-- Monday - Push Workout -->
-                    <div class="col-md-5">
-                        <table class="myTbl">
-                            <tbody>
-                                <tr>
-                                    <th colspan="2">Monday - Zumba Classes Schedule</th>
-                                </tr>
-                                <tr>
-                                    <td><b>Time Slot</b></td>
-                                    <td><b>Status</b></td>
-                                </tr>
-                                <tr>
-                                    <td>09:00 - 10:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>11:00 - 12:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>14:00 - 15:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>18:00 - 19:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <!-- You can add more time slots here -->
-                            </tbody>
-                        </table>
-
-                        <!-- Tuesday - Pull Workout -->
-                        <table class="myTbl">
-                            <tbody>
-                                <tr>
-                                    <th colspan="2">Tuesday - Zumba Classes Schedule</th>
-                                </tr>
-                                <tr>
-                                    <td><b>Time Slot</b></td>
-                                    <td><b>Status</b></td>
-                                </tr>
-                                <tr>
-                                    <td>09:00 - 10:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>11:00 - 12:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>14:00 - 15:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>18:00 - 19:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <!-- You can add more time slots here -->
-                            </tbody>
-                        </table>
-                        <!-- Wednesday -->
-                        <table class="myTbl">
-                            <tbody>
-                                <tr>
-                                    <th colspan="2">Wednesday - Zumba Classes Schedule</th>
-                                </tr>
-                                <tr>
-                                    <td><b>Time Slot</b></td>
-                                    <td><b>Status</b></td>
-                                </tr>
-                                <tr>
-                                    <td>09:00 - 10:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>11:00 - 12:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>14:00 - 15:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>18:00 - 19:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <!-- You can add more time slots here -->
-                            </tbody>
-                        </table>
-                        <!-- Thursday - Legs Workout -->
-                        <table class="myTbl">
-                            <tbody>
-                                <tr>
-                                    <th colspan="2">Thursday - Zumba Classes Schedule</th>
-                                </tr>
-                                <tr>
-                                    <td><b>Time Slot</b></td>
-                                    <td><b>Status</b></td>
-                                </tr>
-                                <tr>
-                                    <td>09:00 - 10:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>11:00 - 12:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>14:00 - 15:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>18:00 - 19:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <!-- You can add more time slots here -->
-                            </tbody>
-                        </table>
-                        <!-- Friday - Push Workout -->
-                        <table class="myTbl">
-                            <tbody>
-                                <tr>
-                                    <th colspan="2">Friday - Zumba Classes Schedule</th>
-                                </tr>
-                                <tr>
-                                    <td><b>Time Slot</b></td>
-                                    <td><b>Status</b></td>
-                                </tr>
-                                <tr>
-                                    <td>09:00 - 10:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>11:00 - 12:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>14:00 - 15:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>18:00 - 19:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <!-- You can add more time slots here -->
-                            </tbody>
-                        </table>
-                        <!-- Saturday - Pull Workout -->
-                        <table class="myTbl">
-                            <tbody>
-                                <tr>
-                                    <th colspan="2">Saturday - Zumba Classes Schedule</th>
-                                </tr>
-                                <tr>
-                                    <td><b>Time Slot</b></td>
-                                    <td><b>Status</b></td>
-                                </tr>
-                                <tr>
-                                    <td>09:00 - 10:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>11:00 - 12:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>14:00 - 15:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>18:00 - 19:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <!-- You can add more time slots here -->
-                            </tbody>
-                        </table>
-                        <!-- Sunday -->
-                        <table class="myTbl">
-                            <tbody>
-                                <tr>
-                                    <th colspan="2">Sunday - Zumba Classes Schedule</th>
-                                </tr>
-                                <tr>
-                                    <td><b>Time Slot</b></td>
-                                    <td><b>Status</b></td>
-                                </tr>
-                                <tr>
-                                    <td>09:00 - 10:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>11:00 - 12:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>14:00 - 15:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <tr>
-                                    <td>18:00 - 19:00</td>
-                                    <td>Book</td>
-                                </tr>
-                                <!-- You can add more time slots here -->
-                            </tbody>
-                        </table>
+                <a
+                    class="navbar-brand" href="index.html">
+                    <!-- Logo Image on the Left for Desktop View -->
+                    <div class="navbar-logo-container d-none d-lg-block float-left mr-2 ">
+                        <img src="assets/images/golds-gym-logo.png" alt="Golds Gym Logo Man Curling Dumbbells" class="navbar-logo">
                     </div>
+                </a>
+                <a class="navbar-brand" href="index.html">Gold's Gym</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="workoutsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Workouts
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="workoutsDropdown">
+                                <span class="dropdown-header">Workouts</span>
+                                <!-- Submenu title -->
+                                <a class="dropdown-item" href="workouts.html">All Workouts</a>
+                                <span class="dropdown-header">Bodybuilding</span>
+                                <!-- Submenu title -->
+                                <a class="dropdown-item" href="pushpulllegs.html">Push Pull Legs</a>
+                                <a class="dropdown-item" href="threeonethree.html">The 3-1-3</a>
+                                <a class="dropdown-item" href="full-body.html">Full-Body</a>
+                                <a class="dropdown-item" href="upper-lower.html">Upper/Lower</a>
+                                <a class="dropdown-item" href="cardio.html">Cardio</a>
+                                <a class="dropdown-item" href="bro-split.html">Bro Split</a>
+                                <div class="dropdown-divider"></div>
+                                <!-- Add a divider between Workout and Classes -->
+                                <span class="dropdown-header">Classes</span>
+                                <!-- Submenu title -->
+                                <a class="dropdown-item" href="yoga.html">Yoga</a>
+                                <!-- Class 1 -->
+                                <a class="dropdown-item" href="pilates.html">Pilates</a>
+                                <!-- Class 2 -->
+                                <a class="dropdown-item active" href="zumba.html">Zumba</a>
+                                <!-- Class 3 -->
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="index.html#about" data-target="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth-scroll" href="index.html#contact" data-target="#contact">Contact
+                                                            Us</a>
+                        </li>
+                    </ul>
                 </div>
-                <h6 class="mt-4 p-5 text-center">
-                    <strong>
-                        Note: This schedule is just a sample and can be adjusted based on your
-                        fitness level, preferences, and any equipment available. Make sure to
-                        maintain proper form and listen to your body. If you're new to
-                        exercise, consider working with a fitness professional to create a
-                        personalized plan that suits your needs and goals. Always prioritize
-                        safety and consult a healthcare provider before starting a new
-                        exercise routine, especially if you have any underlying health
-                        conditions.
-                    </strong>
-                </h6>
-            </div>
-        </div>
-    </main>
+            </nav>
+        </header>
 
 
+        <!-- Main Content -->
+        <main
+            class="margintop">
+            <!-- Blog Content -->
+            <div
+                class="paddingtopforstickyheader container-workout container mt-5">
+                <!-- Blog Title -->
+                <h1 class="text-center">Zumba Classes</h1>
+
+                <!-- Blog Post Image -->
+                <div class="centered-image">
+                    <img src="assets/images/goldgym-zumba.png" alt="Placeholder Image" class="img-fluid rounded" width="1920" height="1080">
+                </div>
+                <!-- Blog Post Content -->
+                <div
+                    class="mt-4">
+                    <!-- Centered Text -->
+                    <div class="text-center mb-4">
+                        <p>"Zumba: The rhythm-infused path to vibrant fitness and dance-floor harmony.""</p>
+                    </div>
+
+                    <!-- Subheading for First Paragraph -->
+                    <h2 class="text-center aboutworkoutclasses">Why this Class?</h2>
+
+                    <!-- Centered Text -->
+                    <div class="text-center mb-4">
+                        <p class="px-2">"Zumba classes offer a dynamic and inclusive practice suitable for individuals of
+                                                    all levels, promoting a joyful fusion
+                                                    of body and rhythm through an exhilarating approach. This vibrant method not only boosts
+                                                    physical fitness but also
+                                                    uplifts your spirits, contributing to overall well-being and a sense of joy."</p>
+
+                        <p class="px-2">Zumba classes provide a dynamic and progressive journey towards holistic well-being,
+                                                    offering a vibrant practice that
+                                                    adapts to your unique needs. Committed to your continuous growth and joy, they are the perfect
+                                                    choice for those seeking
+                                                    improved health and an exhilarating sense of harmony.</p>
+                    </div>
+
+                    <!-- Workout Details Content -->
+                    <div class="wrapper mt-4">
+                        <aside class="col-md-7">
+                            <h2 class="aboutworkoutclasses">About Zumba Classes</h2>
+                            <p>
+                                Zumba classes provide a versatile and invigorating approach to elevate your overall
+                                                            well-being. Crafted to engage both
+                                                            body and spirit, Zumba transcends physical fitness, fostering a comprehensive enhancement of
+                                                            your health and inner
+                                                            harmony. By incorporating dynamic movements and joyful rhythms, Zumba cultivates not only
+                                                            physical vitality but also
+                                                            mental clarity, emotional balance, and inner happiness.
+                            </p>
+                            <br>
+                            <p>
+                                Zumba classes provide a versatile and exhilarating approach to elevate your overall
+                                                            well-being. Designed to engage your
+                                                            body, mind, and spirit through lively dance moves and infectious rhythms, Zumba goes beyond
+                                                            physical fitness, nurturing
+                                                            a holistic enhancement of your health and inner balance. By incorporating energetic routines
+                                                            and uplifting music, Zumba
+                                                            helps you not only boost your physical vitality but also find mental clarity, emotional
+                                                            harmony, and inner joy.
+                            </p>
+                            <br>
+                            <p>
+                                Zumba classes stand out with their energetic and progressive approach. Each session is
+                                                            meticulously choreographed to
+                                                            ensure a harmonious fusion of body and rhythm while prioritizing enjoyment and well-being.
+                                                            As you continue with your
+                                                            Zumba practice, you'll experience gradual enhancements in your coordination, cardiovascular
+                                                            fitness, and overall dance
+                                                            skills, fostering continuous growth and joy in your journey toward a healthier and more
+                                                            vibrant you.
+                            </p>
+                            <br>
+                            <p>
+                                Incorporating Zumba into your fitness routine offers a multitude of benefits that go beyond
+                                                            the physical. The
+                                                            high-energy dance moves and infectious rhythms cultivate mental clarity and emotional
+                                                            well-being, helping you manage
+                                                            stress and enhance your focus in everyday life. Additionally, the emphasis on holistic
+                                                            wellness promotes a sense of
+                                                            balance, both mentally and physically, reducing the risk of injury and supporting your
+                                                            overall health journey.
+                            </p>
+                            <br>
+                            <p>
+                                Embarking on a Zumba journey begins with finding your own comfort zone and gradually
+                                                            progressing to ensure both safety
+                                                            and effectiveness. Seeking guidance from an experienced Zumba instructor or healthcare
+                                                            professional can provide you with
+                                                            personalized advice, ensuring that your dance practice aligns with your specific goals and
+                                                            needs. Dedication,
+                                                            mindfulness, and consistent effort will empower you to not only improve your dance skills
+                                                            but also experience heightened
+                                                            mental and emotional well-being through the joy of Zumba.
+                            </p>
+
+                            <div
+                                class="video-container">
+                                <!-- Embed the YouTube video using an iframe -->
+                                <iframe class="iframeyt" width="1920" height="1080" src="https://www.youtube.com/embed/2Y88algcyLY" allowfullscreen></iframe>
+                            </div>
 
 
-<footer>
-    <div class="container">
-        <!-- Section: Social media -->
-        <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom footer-section">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
-                <span>Get connected with us on social networks:</span>
-            </div>
-            <!-- Left -->
+                        </aside>
+                        <!-- Monday - Push Workout -->
+                        <div class="col-md-5">
+                            <table class="myTbl">
+                                <tbody>
+                                    <tr>
+                                        <th colspan="2">Monday - Zumba Classes Schedule</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Time Slot</b>
+                                        </td>
+                                        <td>
+                                            <b>Status</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>09:00 - 10:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00 - 12:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00 - 15:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00 - 19:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <!-- You can add more time slots here -->
+                                </tbody>
+                            </table>
 
-            <!-- Right -->
-            <div>
-                <a href="https://en-gb.facebook.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://twitter.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.google.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
-                    <i class="fab fa-google"></i>
-                </a>
-                <a href="https://www.instagram.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://gb.linkedin.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://www.youtube.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </div>
-            <!-- Right -->
-        </div>
-        <!-- Section: Social media -->
-    </div>
-
-    <!-- Section: Links  -->
-    <section>
-        <div class="container text-center text-md-start">
-            <!-- Grid row -->
-            <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                    <!-- Content -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        <i class="fas fa-dumbbell me-3 mr-1"></i>Golds Gym
+                            <!-- Tuesday - Pull Workout -->
+                            <table class="myTbl">
+                                <tbody>
+                                    <tr>
+                                        <th colspan="2">Tuesday - Zumba Classes Schedule</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Time Slot</b>
+                                        </td>
+                                        <td>
+                                            <b>Status</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>09:00 - 10:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00 - 12:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00 - 15:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00 - 19:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <!-- You can add more time slots here -->
+                                </tbody>
+                            </table>
+                            <!-- Wednesday -->
+                            <table class="myTbl">
+                                <tbody>
+                                    <tr>
+                                        <th colspan="2">Wednesday - Zumba Classes Schedule</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Time Slot</b>
+                                        </td>
+                                        <td>
+                                            <b>Status</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>09:00 - 10:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00 - 12:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00 - 15:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00 - 19:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <!-- You can add more time slots here -->
+                                </tbody>
+                            </table>
+                            <!-- Thursday - Legs Workout -->
+                            <table class="myTbl">
+                                <tbody>
+                                    <tr>
+                                        <th colspan="2">Thursday - Zumba Classes Schedule</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Time Slot</b>
+                                        </td>
+                                        <td>
+                                            <b>Status</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>09:00 - 10:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00 - 12:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00 - 15:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00 - 19:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <!-- You can add more time slots here -->
+                                </tbody>
+                            </table>
+                            <!-- Friday - Push Workout -->
+                            <table class="myTbl">
+                                <tbody>
+                                    <tr>
+                                        <th colspan="2">Friday - Zumba Classes Schedule</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Time Slot</b>
+                                        </td>
+                                        <td>
+                                            <b>Status</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>09:00 - 10:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00 - 12:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00 - 15:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00 - 19:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <!-- You can add more time slots here -->
+                                </tbody>
+                            </table>
+                            <!-- Saturday - Pull Workout -->
+                            <table class="myTbl">
+                                <tbody>
+                                    <tr>
+                                        <th colspan="2">Saturday - Zumba Classes Schedule</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Time Slot</b>
+                                        </td>
+                                        <td>
+                                            <b>Status</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>09:00 - 10:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00 - 12:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00 - 15:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00 - 19:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <!-- You can add more time slots here -->
+                                </tbody>
+                            </table>
+                            <!-- Sunday -->
+                            <table class="myTbl">
+                                <tbody>
+                                    <tr>
+                                        <th colspan="2">Sunday - Zumba Classes Schedule</th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <b>Time Slot</b>
+                                        </td>
+                                        <td>
+                                            <b>Status</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>09:00 - 10:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00 - 12:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:00 - 15:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18:00 - 19:00</td>
+                                        <td>Book</td>
+                                    </tr>
+                                    <!-- You can add more time slots here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <h6 class="mt-4 p-5 text-center">
+                        <strong>
+                            Note: This schedule is just a sample and can be adjusted based on your
+                                                    fitness level, preferences, and any equipment available. Make sure to
+                                                    maintain proper form and listen to your body. If you're new to
+                                                    exercise, consider working with a fitness professional to create a
+                                                    personalized plan that suits your needs and goals. Always prioritize
+                                                    safety and consult a healthcare provider before starting a new
+                                                    exercise routine, especially if you have any underlying health
+                                                    conditions.
+                        </strong>
                     </h6>
-                    <p>
-                        <iframe
-                            src="https://www.google.co.uk/maps/embed?pb=!1m18!1m12!1m3!1d2483.198255739041!2d-0.14475818422933194!3d51.519937479637685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b29d390dad7%3A0xaae6d54de84830d5!2sGold's%20Gym%20%28Uk%29%20Limited!5e0!3m2!1sen!2suk!4v1592224589836!5m2!1sen!2suk"
-                            allowfullscreen="" loading="lazy"></iframe>
-                    </p>
                 </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
-                    <p>
-                        <a href="terms.html" class="text-reset">Terms</a>
-                    </p>
-                    <p>
-                        <a href="memberships.html" class="text-reset">Memberships</a>
-                    </p>
-                    <p>
-                        <a href="openinghours.html" class="text-reset">Opening Hours</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">Classes</h6>
-                    <p>
-                        <a href="yoga.html" class="text-reset">Yoga</a>
-                    </p>
-                    <p>
-                        <a href="pilates.html" class="text-reset">Pilates</a>
-                    </p>
-                    <p>
-                        <a href="zumba.html" class="text-reset">Zumba</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                    <p>
-                        <i class="fas fa-home me-3"></i> 29-30 Fitzroy Square, <br>
-                        London W1T 6LQ
-                    </p>
-                    <p>
-                        <i class="fas fa-envelope me-3"></i>
-                        GoldsGym@gym.com
-                    </p>
-                    <p><i class="fas fa-phone me-3"></i> + 020 8901 6161</p>
-                    <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-                </div>
-                <!-- Grid column -->
             </div>
-            <!-- Grid row -->
-        </div>
-    </section>
-    <!-- Section: Links  -->
-
-    <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
-        © 2023 Copyright Gold's Gym
-    </div>
-</footer>
-    <!-- Footer -->
-
-    <!-- Bootstrap JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="assets/js/stickyheader.js"></script>
-    <script src="assets/js/smoothscrolling.js"></script>
+        </main>
 
 
+        <footer>
+            <div
+                class="container">
+                <!-- Section: Social media -->
+                <div
+                    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom footer-section">
+                    <!-- Left -->
+                    <div class="me-5 d-none d-lg-block">
+                        <span>Get connected with us on social networks:</span>
+                    </div>
+                    <!-- Left -->
 
-</body>
+                    <!-- Right -->
+                    <div>
+                        <a href="https://en-gb.facebook.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.google.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://gb.linkedin.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" class="me-4 text-reset mr-2 social-icon-link" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    <!-- Right -->
+                </div>
+                <!-- Section: Social media -->
+            </div>
+
+            <!-- Section: Links  -->
+            <section>
+                <div
+                    class="container text-center text-md-start">
+                    <!-- Grid row -->
+                    <div
+                        class="row mt-3">
+                        <!-- Grid column -->
+                        <div
+                            class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-dumbbell me-3 mr-1"></i>Golds Gym
+                            </h6>
+                            <p>
+                                <iframe src="https://www.google.co.uk/maps/embed?pb=!1m18!1m12!1m3!1d2483.198255739041!2d-0.14475818422933194!3d51.519937479637685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b29d390dad7%3A0xaae6d54de84830d5!2sGold's%20Gym%20%28Uk%29%20Limited!5e0!3m2!1sen!2suk!4v1592224589836!5m2!1sen!2suk" allowfullscreen="" loading="lazy"></iframe>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div
+                            class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                            <p>
+                                <a href="terms.html" class="text-reset">Terms</a>
+                            </p>
+                            <p>
+                                <a href="memberships.html" class="text-reset">Memberships</a>
+                            </p>
+                            <p>
+                                <a href="openinghours.html" class="text-reset">Opening Hours</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div
+                            class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">Classes</h6>
+                            <p>
+                                <a href="yoga.html" class="text-reset">Yoga</a>
+                            </p>
+                            <p>
+                                <a href="pilates.html" class="text-reset">Pilates</a>
+                            </p>
+                            <p>
+                                <a href="zumba.html" class="text-reset">Zumba</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div
+                            class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                            <p>
+                                <i class="fas fa-home me-3"></i>
+                                29-30 Fitzroy Square,
+                                <br>
+                                London W1T 6LQ
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                GoldsGym@gym.com
+                            </p>
+                            <p>
+                                <i class="fas fa-phone me-3"></i>
+                                + 020 8901 6161</p>
+                            <p>
+                                <i class="fas fa-print me-3"></i>
+                                + 01 234 567 89</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+                © 2023 Copyright Gold's Gym
+            </div>
+        </footer>
+        <!-- Footer -->
+
+        <!-- Bootstrap JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="assets/js/stickyheader.js"></script>
+        <script src="assets/js/smoothscrolling.js"></script>
+
+
+    </body>
 
 </html>
