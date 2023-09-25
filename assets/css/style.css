@@ -253,6 +253,13 @@ button:focus {
 .iframeyt {border: 0;}
 
 /*********************************************
+ *    MAIN STYLESHEET - SIGNUP PAGE    *
+ *********************************************/
+ .card-header {
+  padding: 20PX !important;
+}
+
+/*********************************************
  *    MAIN STYLESHEET - TERMS    *
  *********************************************/
  #terms-and-conditions,
