@@ -85,6 +85,25 @@ a.dropdown-item.active{background-color: #edc700;
   max-height: 100vh;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  margin: 0 1opx; /* Adjust the margin as needed */
+  z-index: 99;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+} 
+
+.carousel-control-prev,
+.carousel-control-next {
+margin: 0 0px; /* Adjust the margin as needed */
+width: 5%;
+}
+
+
 .hero-content {
   position: absolute;
   top: 50%;
@@ -572,7 +591,19 @@ html {
     padding-left: 15px;
     padding-right: 15px;
   }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 10px; /* Adjust the width as needed */
+    height: 10px; /* Adjust the height as needed */
+  } 
+  
+.carousel-control-prev,
+.carousel-control-next {
+  margin: 0 0px; /* Adjust the margin as needed */
+  width: 5%;
 }
+}
+
 
 /* Tablet styles */
 @media (min-width: 768px) and (max-width: 991px) {
