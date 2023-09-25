@@ -82,7 +82,7 @@ a.dropdown-item.active{background-color: #edc700;
 .hero img {
   object-fit: cover;
   width: 100%;
-  max-height: 100vh;
+ 
 }
 
 .carousel-control-prev,
