@@ -273,24 +273,15 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
 - JAVASCRIPT
   - No errors or warnings were found when passing through the browser console.
+### Deployment
 
-- **Hamburger Menu**
   - Logo
   - Home (Active)
   - School Tour
   - Gallery
   - Contact
-### Testing
+### Credits
 
-- **Hamburger Menu**
-  - Logo
-  - Home (Active)
-  - School Tour
-  - Gallery
-  - Contact
-### Testing
-
-- **Hamburger Menu**
   - Logo
   - Home (Active)
   - School Tour
