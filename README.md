@@ -173,7 +173,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
   
-  ![Alt text](threeonethree.jpeg)
+![Alt text](threeonethree.jpeg)
   
   - ***Workout Page Full-Body***
       - Image picture at the top
@@ -182,7 +182,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
 
-  ![Alt text](fullbody.jpeg)
+![Alt text](fullbody.jpeg)
   
   - ***Workout Upper/lower***
       - Image picture at the top
@@ -191,7 +191,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - Two videos helping you understand the workout.
 
- ![Alt text](upperlower.jpeg)
+![Alt text](upperlower.jpeg)
   
   - ***Workout Cardio***
       - Image picture at the top
@@ -200,7 +200,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
 
- ![Alt text](cardio.jpeg)
+![Alt text](cardio.jpeg)
   
   - ***Workout Bro Split***
       - Image picture at the top
@@ -209,7 +209,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
 
-  ![Alt text](brosplit.jpeg)
+![Alt text](brosplit.jpeg)
   
   - ***Workout Page Yoga***
       - Image picture at the top
@@ -218,7 +218,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout. 
       
-  ![Alt text](yoga.jpeg)
+![Alt text](yoga.jpeg)
   
   - ***Workout Page Pilates***
        - Image picture at the top
@@ -227,7 +227,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
   
-  ![Alt text](pilates.jpeg)
+![Alt text](pilates.jpeg)
   
   - ***Workout Page Zumba***
       - Image picture at the top
@@ -236,7 +236,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
 
- ![Alt text](zumba.jpeg)
+![Alt text](zumba.jpeg)
   
   ***
 
@@ -247,7 +247,8 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - Form to sign up to the gym
   - Thank you message once signign up
  
-
+![Alt text](signupsectionfilled.png)
+![Alt text](signupcomplete.png)
   ***
 ### Mobile View
 
