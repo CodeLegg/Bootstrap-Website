@@ -217,16 +217,16 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
   
+  ![Alt text](pilates.jpeg)
   - ***Workout Page Zumba***
       - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
       - About the Workout - Breif Description of workout
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
-  - 
 
+  ![Alt text](zumba-1.jpeg)
 
-![Alt text](footer.png)
 ### Mobile View
 
 - **Hamburger Menu**
