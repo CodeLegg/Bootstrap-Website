@@ -275,16 +275,23 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - No errors or warnings were found when passing through the browser console.
 ### Deployment
 
-  - Logo
-  - Home (Active)
-  - School Tour
-  - Gallery
-  - Contact
-### Credits
+ - The website was deployed to GitHub pages and can be accessed by the link: [Gold's Gym](https://codelegg.github.io/Bootstrap-Website/)
+ ***
+ ### Credits
+  - **Content**
+  - The code to make social media links was taken from the Code Institute Bootstrap Videos and modified to fit my website Using OverStack and Google.
+  
+  - To make a responsive containers, cards and sliding carousels I watched some videos of  on YouTube channel.
 
-  - Logo
-  - Home (Active)
-  - School Tour
-  - Gallery
-  - Contact
+    [Codeflix](https://www.youtube.com/watch?v=oAPzPMJzS0I)
+    
+    [Adrian Twarog](https://www.youtube.com/watch?v=Wqu-d_b3K-0)
+    
+    [Net Ninja](https://www.youtube.com/watch?v=NRoET8-8cbw)
+    
+  - Thanks to my tutor for support.
+  - **Media**
+  - All the images for the website were taken from [Wallapapercave](https://wallpapercave.com/gym-workout-4k-wallpapers)
+  - All audio files were taken from youtube shorts from [Makaveli Motivation](https://www.youtube.com/user/Machiavelli929)
+
 
