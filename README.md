@@ -141,7 +141,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - It welcomes the user and provides button options to:
     - 'Get Intouch'
     - 'Learn More'
-    - ''Get Involved'
+    - 'Get Involved'
   - Each Button Links to a different part of the wesbite, encouraging you to join.
     -  Get started' takes you to the [Contact Us](https://codelegg.github.io/Bootstrap-Website/index.html#contact)
     - 'Learn More' takes you to the [Opening Hours](https://codelegg.github.io/Bootstrap-Website/openinghours.html)
@@ -185,8 +185,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - Two videos helping you understand the workout.
 
-![Alt text](upperlower.jpeg)
- 
+ ![Alt text](upperlower.jpeg)
   - ***Workout Cardio***
       - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
@@ -194,8 +193,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
 
-![Alt text](cardio.jpeg)
- 
+ ![Alt text](cardio.jpeg)
   - ***Workout Bro Split***
       - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
@@ -203,8 +201,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
 
-![Alt text](brosplit.jpeg)
-  
+  ![Alt text](brosplit.jpeg)
   - ***Workout Page Yoga***
       - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
@@ -212,8 +209,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout. 
       
-      ![Alt text](yoga-1.png)
-  
+  ![Alt text](yoga.jpeg)
   - ***Workout Page Pilates***
        - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
