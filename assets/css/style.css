@@ -72,16 +72,6 @@ a.dropdown-item.active{background-color: #edc700;
   background: #fff;
 }
 
-/* Add a custom class to your dropdown menu */
-.custom-dropdown-menu {
-  max-height: 200px; /* Set a maximum height for the dropdown */
-  overflow-y: auto; /* Add a scrollbar when content overflows */
-}
-
-.dropdown-menu.show {
-  max-height: 200px; /* Set a maximum height for the dropdown */
-  overflow-y: auto; /* Add a scrollbar when content overflows */
-}
 
 
 /*********************************************
@@ -742,8 +732,21 @@ html {
     display: block;
   }
 
+  
+}
+@media (max-width: 991px) {
+.iframeyt {max-width: 75%;}
 }
 
+@media (max-width: 991px) and (orientation: landscape) {
+  .iframeyt {
+    max-width: 75%;
+  }
+
+
+  
+
+}
 
 /* Desktop view (screens larger than 992px) */
 @media screen and (min-width: 993px) {
@@ -775,13 +778,12 @@ html {
   }
 }
 
-/* Scroll behavior for HTML */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Reset body styles */
-body {
-  margin: 0;
-  padding: 0;
+/* For screens 991px and lower, and landscape mode in mobile */
+@media (max-width: 991px) and (orientation: landscape) {
+  /* Add a custom class to your dropdown menu */
+  .custom-dropdown-menu,
+  .dropdown-menu.show {
+    max-height: 200px; /* Set a maximum height for the dropdown */
+    overflow-y: auto; /* Add a scrollbar when content overflows */
+  }
 }
