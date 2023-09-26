@@ -227,7 +227,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
   
-![Alt text](pilates.jpeg)
+  ![Alt text](pilates-1.jpeg)
   
   - ***Workout Page Zumba***
       - Image picture at the top
