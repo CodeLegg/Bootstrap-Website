@@ -146,11 +146,10 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
     -  Get started' takes you to the [Contact Us](https://codelegg.github.io/Bootstrap-Website/index.html#contact)
     - 'Learn More' takes you to the [Opening Hours](https://codelegg.github.io/Bootstrap-Website/openinghours.html)
     - 'Get Involved' takes you to the [Yoga](https://codelegg.github.io/Bootstrap-Website/yoga.html)
-  
+
 ![Alt text](workout-1.png)
 ![Alt text](workout-2.png)
 ![Alt text](workout-3.png)
-![Alt text](workouts-1.png)
 ![Alt text](contactsection-1.png)
 ![Alt text](openinghours.jpeg)
 ![Alt text](yoga.png)
