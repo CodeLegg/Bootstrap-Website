@@ -153,7 +153,10 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 ![Alt text](contactsection-1.png)
 ![Alt text](openinghours.jpeg)
 ![Alt text](yoga.png)
-  
+
+***
+  ***Workout Pages***
+
   - ***Workout Page Push Pull Legs***
       - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
@@ -169,7 +172,9 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - About the Workout - Breif Description of workout
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
-     ![Alt text](threeonethree.jpeg)
+  
+  ![Alt text](threeonethree.jpeg)
+  
   - ***Workout Page Full-Body***
       - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
@@ -178,6 +183,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Video - A video helping you understand the workout.
 
   ![Alt text](fullbody.jpeg)
+  
   - ***Workout Upper/lower***
       - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
@@ -186,6 +192,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Video - Two videos helping you understand the workout.
 
  ![Alt text](upperlower.jpeg)
+  
   - ***Workout Cardio***
       - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
@@ -194,6 +201,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Video - A video helping you understand the workout.
 
  ![Alt text](cardio.jpeg)
+  
   - ***Workout Bro Split***
       - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
@@ -202,6 +210,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Video - A video helping you understand the workout.
 
   ![Alt text](brosplit.jpeg)
+  
   - ***Workout Page Yoga***
       - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
@@ -210,6 +219,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Video - A video helping you understand the workout. 
       
   ![Alt text](yoga.jpeg)
+  
   - ***Workout Page Pilates***
        - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
@@ -218,6 +228,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Video - A video helping you understand the workout.
   
   ![Alt text](pilates.jpeg)
+  
   - ***Workout Page Zumba***
       - Image picture at the top
       - Why this Programme? Explaing why its good for you. 
@@ -225,8 +236,19 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
 
-  ![Alt text](zumba-1.jpeg)
+ ![Alt text](zumba.jpeg)
+  
+  ***
 
+### Sign Up
+
+- **Sign Up Page/Form**
+  - Logo at top of card
+  - Form to sign up to the gym
+  - Thank you message once signign up
+ 
+
+  ***
 ### Mobile View
 
 - **Hamburger Menu**
