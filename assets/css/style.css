@@ -218,6 +218,12 @@ button:focus {
 {background-color: rgba(0, 0, 0, 0.05);}
 
 
+.copyright a {
+    color:#edc700; /* Change 'blue' to your desired color */
+    /* You can add other styling properties here */
+}
+
+
 .footer-section {
   padding: 20px 0;
 }
