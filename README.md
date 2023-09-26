@@ -130,7 +130,6 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
     [Github](https://github.com/CodeLegg)
 
 ![Alt text](footer.png)
-
 ***
 
 - **Workout Page & Pages**
