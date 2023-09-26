@@ -53,7 +53,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - **Sign Up:** Leads to the Sign Up section.
   - **Contact:** Leads to the Contact section.
 
-![Alt text](NAVDesktop.png)
+![Alt text](assets/NAVDesktop.png)
 ![Alt text](navmobile.png)
 ***
 **Hero Section**
