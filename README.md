@@ -250,7 +250,45 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 ![Alt text](signupsectionfilled.png)
 ![Alt text](signupcomplete.png)
   ***
-### Mobile View
+### Testing
+
+  - I tested that the website works in different browsers: Chrome, Firefox, Edge.
+  - I used devtools and Responsive Website Design Tester to confirm that the website is responsive, looks and functions as it supposed to on all standard screen sizes.
+  - I tested all the links and confirmed that all of them work and lead where they suppose to lead.
+### Bugs
+
+  - 
+  -  
+  -  
+  - 
+  - 
+### Unsolved Bugs
+
+- None
+### Validator testing
+
+- HTML
+  - No errors or warnings were found when passing through the official W3C validator.
+- CSS
+  - No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+- JAVASCRIPT
+  - No errors or warnings were found when passing through the browser console.
+
+- **Hamburger Menu**
+  - Logo
+  - Home (Active)
+  - School Tour
+  - Gallery
+  - Contact
+### Testing
+
+- **Hamburger Menu**
+  - Logo
+  - Home (Active)
+  - School Tour
+  - Gallery
+  - Contact
+### Testing
 
 - **Hamburger Menu**
   - Logo
@@ -259,92 +297,3 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - Gallery
   - Contact
 
-- **Hero Section**
-  - Animated background image
-  - School name
-  - Message about the school
-  - Glowing button
-
-- **About Us Section**
-  - Image (Top)
-  - Information about the school
-  - Why choose our school
-
-- **Meet Our Team Section**
-  - Three teacher cards (Stacked)
-    - Photo of teacher
-    - Brief introduction
-  - Animated hover effect
-
-- **Become Familiar With Our Materials Section**
-  - Flashcards with fruit images
-    - Picture
-    - Hover: Name of fruit and audio
-
-- **Footer**
-  - Social media links (animated hover)
-  - Copyright sign with GitHub link
-
-## School Tour Page
-
-### Desktop & Mobile View
-
-- **Navigation Bar**
-  - Same as Home Page
-
-- **Hero Section**
-  - Different background image
-  - Text about virtual tour
-
-- **Tour Sections**
-  - Our main hall
-    - Picture
-    - Description
-  - Our classroom
-    - Picture
-    - Description
-  - Our canteen
-    - Picture
-    - Description
-  - Our art zone
-    - Picture
-    - Description
-  - Buttons to scroll between sections
-
-- **Footer**
-  - Same as Home Page
-
-## Gallery Page
-
-### Desktop & Mobile View
-
-- **Navigation Bar**
-  - Same as Home Page
-
-- **Gallery**
-  - Pictures of school activities
-  - Hover effect (slight scaling)
-
-- **Footer**
-  - Same as Home Page
-
-## Contact Page
-
-### Desktop & Mobile View
-
-- **Navigation Bar**
-  - Same as Home Page
-
-- **Contact Form**
-  - Customized text input fields
-  - Animated labels on focus
-  - Customized radio buttons
-  - Animated submit button on hover
-  - Thank you message on form submission
-
-- **Footer**
-  - Same as Home Page
-
----
-
-Feel free to use this template to create your wireframes for the Starlight English website. You can adapt it to your specific design and layout preferences.

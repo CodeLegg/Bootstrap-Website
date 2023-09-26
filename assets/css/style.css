@@ -312,9 +312,9 @@ button:focus {
   transform: scale(1.02);
 }
 
-.custom-card-width {
-  width: 100%;
-  max-width: 100%;
+.workout-tier{
+  max-width: 370px;
+  margin: 0 auto;
 }
 
 .card-img-top {
@@ -795,5 +795,14 @@ html {
   .dropdown-menu.show {
     max-height: 200px; /* Set a maximum height for the dropdown */
     overflow-y: auto; /* Add a scrollbar when content overflows */
+  }
+}
+
+/* CSS for screens 991px and lower */
+@media (max-width: 991px) {
+  /* Override the default Bootstrap column classes */
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
