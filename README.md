@@ -51,28 +51,29 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - **Contact:** Leads to the Contact section.
 
 ![Alt text](NAVDesktop.png)
-![Full Capture of Website](navmobile.png)
-- 
+![Alt text](navmobile.png)
+
+***
 **Hero Section**
-  - Hero section has a sliding carousel of three images.
+- Hero section has a sliding carousel of three images.
 - Hero section shows the text block at the left side of the screen:
 
-  - It has the name of the Gym.
-  - It welcomes the user and provides options to:
+  - It has a welcome message for each slide.
+  - It welcomes the user and provides button options to:
     - 'Get started'
     - 'Learn More'
     - ''Get Involved'
   - Each Button Links to a different part of the wesbite, encouraging you to join.
-    -  Get started' takes you to the ['Memberships'](https://codelegg.github.io/Bootstrap-Website/memberships.html)
+    -  Get started' takes you to the [Memberships](https://codelegg.github.io/Bootstrap-Website/memberships.html)
 
-    - 'Learn More' takes you to the ['Workouts'](https://codelegg.github.io/Bootstrap-Website/workouts.html)
+    - 'Learn More' takes you to the [Workouts](https://codelegg.github.io/Bootstrap-Website/workouts.html)
 
 
-    - 'Get Involved' takes you to the ['Upper/Lower'](https://codelegg.github.io/Bootstrap-Website/upper-lower.html)
+    - 'Get Involved' takes you to the [Upper/Lower](https://codelegg.github.io/Bootstrap-Website/upper-lower.html)
 
-![Alt text](hero1-2.png)
-![Alt text](hero2-1.png)
-![Alt text](hero3.png)
+![Alt text](hero-1.png)
+![Alt text](hero-2.png)
+![Alt text](hero-3.png)
 ![Alt text](memberships.png)
 ![Alt text](workouts.png)
 ![Alt text](upperlower.png)
@@ -90,10 +91,10 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
     - 'Get started'
   - Each Button Links to a the sign-up part of the wesbite, encouraging you to join.
 
-<!-- ![Alt text](womanweight.png)
+![Alt text](womanweight.png)
 ![Alt text](womanlatpull.png)
 ![Alt text](womandelt.png)
-![Alt text](signupsectionfilled.png) -->
+![Alt text](signupsection.png)
 ***
 **Contact Section** 
 -  Contact Us Form (left)
@@ -111,8 +112,119 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 ***
 - **Footer**
   - Social media links
-  - Copyright sign with GitHub link
+  - Map
+  - Links to Pages
+    - [Terms](https://codelegg.github.io/Bootstrap-Website/terms.html)
+    - [Memberships](https://codelegg.github.io/Bootstrap-Website/terms.html)
+    - [Opening Hours](https://codelegg.github.io/Bootstrap-Website/terms.html)
+  - Contact Information
+  - Copyright sign with company name with my GitHub link
+    [Github](https://github.com/CodeLegg)
 
+![Alt text](footer.png)
+
+***
+
+- **Workout Page & Pages**
+  - ***Workout Page***
+  - Workout hero section has a sliding carousel of three images.
+  - Workout hero section shows the text block at the left side of the screen:
+
+  - It has a welcome message for each slide.
+  - It welcomes the user and provides button options to:
+    - 'Get Intouch'
+    - 'Learn More'
+    - ''Get Involved'
+  - Each Button Links to a different part of the wesbite, encouraging you to join.
+    -  Get started' takes you to the [Contact Us](https://codelegg.github.io/Bootstrap-Website/index.html#contact)
+    - 'Learn More' takes you to the [Opening Hours](https://codelegg.github.io/Bootstrap-Website/openinghours.html)
+    - 'Get Involved' takes you to the [Yoga](https://codelegg.github.io/Bootstrap-Website/yoga.html)
+  
+![Alt text](workout-1.png)
+![Alt text](workout-2.png)
+![Alt text](workout-3.png)
+![Alt text](workouts-1.png)
+![Alt text](contactsection-1.png)
+![Alt text](openinghours.jpeg)
+![Alt text](yoga.png)
+  
+  - ***Workout Page Push Pull Legs***
+      - Image picture at the top
+      - Why this Programme? Explaing why its good for you. 
+      - About the Workout - Breif Description of workout
+      - Table - Table of workouts you could use.
+      - Video - A video helping you understand the workout.
+
+![Alt text](pushpulllegs.jpeg)
+  
+  - ***Workout Page 3-1-3***
+      - Image picture at the top
+      - Why this Programme? Explaing why its good for you. 
+      - About the Workout - Breif Description of workout
+      - Table - Table of workouts you could use.
+      - Video - A video helping you understand the workout.
+     ![Alt text](threeonethree.jpeg)
+  - ***Workout Page Full-Body***
+      - Image picture at the top
+      - Why this Programme? Explaing why its good for you. 
+      - About the Workout - Breif Description of workout
+      - Table - Table of workouts you could use.
+      - Video - A video helping you understand the workout.
+
+  ![Alt text](fullbody.jpeg)
+  - ***Workout Upper/lower***
+      - Image picture at the top
+      - Why this Programme? Explaing why its good for you. 
+      - About the Workout - Breif Description of workout
+      - Table - Table of workouts you could use.
+      - Video - Two videos helping you understand the workout.
+
+![Alt text](upperlower.jpeg)
+ 
+  - ***Workout Cardio***
+      - Image picture at the top
+      - Why this Programme? Explaing why its good for you. 
+      - About the Workout - Breif Description of workout
+      - Table - Table of workouts you could use.
+      - Video - A video helping you understand the workout.
+
+![Alt text](cardio.jpeg)
+ 
+  - ***Workout Bro Split***
+      - Image picture at the top
+      - Why this Programme? Explaing why its good for you. 
+      - About the Workout - Breif Description of workout
+      - Table - Table of workouts you could use.
+      - Video - A video helping you understand the workout.
+
+![Alt text](brosplit.jpeg)
+  
+  - ***Workout Page Yoga***
+      - Image picture at the top
+      - Why this Programme? Explaing why its good for you. 
+      - About the Workout - Breif Description of workout
+      - Table - Table of workouts you could use.
+      - Video - A video helping you understand the workout. 
+      
+      ![Alt text](yoga-1.png)
+  
+  - ***Workout Page Pilates***
+       - Image picture at the top
+      - Why this Programme? Explaing why its good for you. 
+      - About the Workout - Breif Description of workout
+      - Table - Table of workouts you could use.
+      - Video - A video helping you understand the workout.
+  
+  - ***Workout Page Zumba***
+      - Image picture at the top
+      - Why this Programme? Explaing why its good for you. 
+      - About the Workout - Breif Description of workout
+      - Table - Table of workouts you could use.
+      - Video - A video helping you understand the workout.
+  - 
+
+
+![Alt text](footer.png)
 ### Mobile View
 
 - **Hamburger Menu**
