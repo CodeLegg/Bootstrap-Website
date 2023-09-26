@@ -54,7 +54,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - **Contact:** Leads to the Contact section.
 
 ![Alt text](assets/NAVDesktop.png)
-![Alt text](navmobile.png)
+![Alt text](assets/navmobile.png)
 ***
 **Hero Section**
 
@@ -74,12 +74,12 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 
     - 'Get Involved' takes you to the [Upper/Lower](https://codelegg.github.io/Bootstrap-Website/upper-lower.html)
 
-![Alt text](hero-1.png)
-![Alt text](hero-2.png)
-![Alt text](hero-3.png)
-![Alt text](memberships.png)
-![Alt text](workouts.png)
-![Alt text](upperlower.png)
+![Alt text](assets/hero-1.png)
+![Alt text](assets/hero-2.png)
+![Alt text](assets/hero-3.png)
+![Alt text](assets/memberships.png)
+![Alt text](assets/workouts.png)
+![Alt text](assets/upperlower.png)
 ***
 - **About Us Section**
   
@@ -87,7 +87,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - Information about the Gym (left)
   - Breif About Golds Gym History
 
-![Alt text](aboutsection.png)
+![Alt text](assets/aboutsection.png)
 ***
 - **CTA Hero Section**
   
@@ -96,18 +96,18 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
     - 'Get started'
   - Each Button Links to a the sign-up part of the wesbite, encouraging you to join.
 
-![Alt text](womanweight.png)
-![Alt text](womanlatpull.png)
-![Alt text](womandelt.png)
-![Alt text](signupsection.png)
+![Alt text](assets/womanweight.png)
+![Alt text](assets/womanlatpull.png)
+![Alt text](assets/womandelt.png)
+![Alt text](assets/signupsection.png)
 ***
 **Contact Section** 
 
 -  Contact Us Form (left)
 - Image (Right) / (Center and below in tablet/mobile view)
    
-![Alt text](contactsection.png)
-![Alt text](<thanks message.png>)
+![Alt text](assets/contactsection.png)
+![Alt text](assets/thanksmessage.png)
   
   - **Become Familiar With Our Audio Squares Section**
     
@@ -115,7 +115,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
     - Icons
     - Click button for sound
 
-![Alt text](audiobuttons.png)
+![Alt text](assets/audiobuttons.png)
 ***
 - **Footer**
   
@@ -129,7 +129,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - Copyright sign with company name with my GitHub link
     [Github](https://github.com/CodeLegg)
 
-![Alt text](footer.png)
+![Alt text](assets/footer.png)
 ***
 
 - **Workout Page & Pages**
@@ -147,12 +147,12 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
     - 'Learn More' takes you to the [Opening Hours](https://codelegg.github.io/Bootstrap-Website/openinghours.html)
     - 'Get Involved' takes you to the [Yoga](https://codelegg.github.io/Bootstrap-Website/yoga.html)
 
-![Alt text](workout-1.png)
-![Alt text](workout-2.png)
-![Alt text](workout-3.png)
-![Alt text](contactsection-1.png)
-![Alt text](openinghours.jpeg)
-![Alt text](yoga.png)
+![Alt text](assets/workout-1.png)
+![Alt text](assets/workout-2.png)
+![Alt text](assets/workout-3.png)
+![Alt text](assets/contactsection-1.png)
+![Alt text](assets/openinghours.jpeg)
+![Alt text](assets/yoga.png)
 
 ***
   ***Workout Pages***
@@ -164,7 +164,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
 
-![Alt text](pushpulllegs.jpeg)
+![Alt text](assets/pushpulllegs.jpeg)
   
   - ***Workout Page 3-1-3***
       - Image picture at the top
@@ -173,7 +173,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
   
-![Alt text](threeonethree.jpeg)
+![Alt text](assets/threeonethree.jpeg)
   
   - ***Workout Page Full-Body***
       - Image picture at the top
@@ -182,7 +182,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
 
-![Alt text](fullbody.jpeg)
+![Alt text](assets/fullbody.jpeg)
   
   - ***Workout Upper/lower***
       - Image picture at the top
@@ -191,7 +191,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - Two videos helping you understand the workout.
 
-![Alt text](upperlower.jpeg)
+![Alt text](assets/upperlower.jpeg)
   
   - ***Workout Cardio***
       - Image picture at the top
@@ -200,7 +200,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
 
-![Alt text](cardio.jpeg)
+![Alt text](assets/cardio.jpeg)
   
   - ***Workout Bro Split***
       - Image picture at the top
@@ -209,7 +209,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
 
-![Alt text](brosplit.jpeg)
+![Alt text](assets/brosplit.jpeg)
   
   - ***Workout Page Yoga***
       - Image picture at the top
@@ -218,7 +218,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout. 
       
-![Alt text](yoga.jpeg)
+![Alt text](assets/yoga.jpeg)
   
   - ***Workout Page Pilates***
        - Image picture at the top
@@ -227,7 +227,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
   
-  ![Alt text](pilates-1.jpeg)
+  ![Alt text](assets/pilates-1.jpeg)
   
   - ***Workout Page Zumba***
       - Image picture at the top
@@ -236,7 +236,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
       - Table - Table of workouts you could use.
       - Video - A video helping you understand the workout.
 
-![Alt text](zumba.jpeg)
+![Alt text](assets/zumba.jpeg)
   
   ***
 
@@ -247,8 +247,8 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - Form to sign up to the gym
   - Thank you message once signign up
  
-![Alt text](signupsectionfilled.png)
-![Alt text](signupcomplete.png)
+![Alt text](assets/signupsectionfilled.png)
+![Alt text](assets/signupcomplete.png)
   ***
 ### Testing
 
