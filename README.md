@@ -257,11 +257,8 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - I tested all the links and confirmed that all of them work and lead where they suppose to lead.
 ### Bugs
 
-  - 
-  -  
-  -  
-  - 
-  - 
+  - trying to get the contact and about section to line up when clicked becuase of sticky header.
+ 
 ### Unsolved Bugs
 
 - None
