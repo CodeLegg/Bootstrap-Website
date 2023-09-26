@@ -279,7 +279,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
  ***
  ### Credits
   - **Content**
-  - The code to make social media links was taken from the Code Institute Bootstrap Videos and modified to fit my website Using OverStack and Google.
+  - The code to make navbar and dropdown was taken from the Code Institute Bootstrap Videos and modified to fit my website Using OverStack and Google.
   
   - To make a responsive containers, cards and sliding carousels I watched some videos of  on YouTube channel.
 
