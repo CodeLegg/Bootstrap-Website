@@ -89,7 +89,6 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
     - It Invites the user and provides options to:
     - 'Get started'
   - Each Button Links to a the sign-up part of the wesbite, encouraging you to join.
-
 ![Alt text](womanweight.png)
 ![Alt text](womanlatpull.png)
 ![Alt text](womandelt.png)
@@ -101,7 +100,6 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
    
 ![Alt text](contactsection.png)
 ![Alt text](<thanks message.png>)
-  
   - **Become Familiar With Our Audio Squares Section**
     - Three Squares with quotes and audio buttons
     - Picture
