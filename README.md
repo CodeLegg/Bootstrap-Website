@@ -9,6 +9,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 ***
 
 - **Technologies used**
+
 - HTML
 - CSS
 - Javascript
@@ -17,6 +18,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 ***
 
 - **User Stories**
+
 - As a first-time visitor, I want to understand the website, so I can learn more about the gym.
 
 - As a first-time visitor, I want to be able to easily navigate through the website, so I can find the information I am looking for.
@@ -44,6 +46,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 - Positioned at the top of the page.
 - Contains the Gold's Gym logo at the left corner.
 - At the right side, there are navigation links:
+  
   - **Home:** Leads to the home page.
   - **Workouts:** Leads to the virtual tour page.
   - **About Us:** Leads to the About Us section.
@@ -54,6 +57,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 ![Alt text](navmobile.png)
 ***
 **Hero Section**
+
 - Hero section has a sliding carousel of three images.
 - Hero section shows the text block at the left side of the screen:
 
@@ -78,6 +82,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 ![Alt text](upperlower.png)
 ***
 - **About Us Section**
+  
   - Image (Right) / (Center in tablet/mobile view)
   - Information about the Gym (left)
   - Breif About Golds Gym History
@@ -85,6 +90,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 ![Alt text](aboutsection.png)
 ***
 - **CTA Hero Section**
+  
   - CTA Hero section has a sliding carousel of three images.
     - It Invites the user and provides options to:
     - 'Get started'
@@ -96,6 +102,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 ![Alt text](signupsection.png)
 ***
 **Contact Section** 
+
 -  Contact Us Form (left)
 - Image (Right) / (Center and below in tablet/mobile view)
    
@@ -103,13 +110,15 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 ![Alt text](<thanks message.png>)
   
   - **Become Familiar With Our Audio Squares Section**
+    
     - Three Squares with quotes and audio buttons
-    - Picture
-    - Hover: Click button for sound
+    - Icons
+    - Click button for sound
 
 ![Alt text](audiobuttons.png)
 ***
 - **Footer**
+  
   - Social media links
   - Map
   - Links to Pages
