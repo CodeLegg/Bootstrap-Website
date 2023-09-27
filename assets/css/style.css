@@ -796,7 +796,7 @@ html {
     max-height: 200px; /* Set a maximum height for the dropdown */
     overflow-y: auto; /* Add a scrollbar when content overflows */
   }
-
+  #about > div > div > div:nth-child(2){margin-top: 130px;}
 }
 
 /* CSS for screens 991px and lower */
