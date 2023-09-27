@@ -796,13 +796,13 @@ html {
     max-height: 200px; /* Set a maximum height for the dropdown */
     overflow-y: auto; /* Add a scrollbar when content overflows */
   }
+
 }
 
 /* CSS for screens 991px and lower */
 @media (max-width: 991px) {
   /* Override the default Bootstrap column classes */
   .col-md-4 {
-    flex: 0 0 100%;
     max-width: 100%;
   }
 }
