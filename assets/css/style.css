@@ -555,13 +555,6 @@ html {
     justify-content: center;
   }
 
-  .sticky-header {
-    position: absolute;
-    width: 100%;
-    z-index: 1000;
-    transition: top 0.3s;
-  }
-
   .heroindexwork {
     padding-top: 70px;
   }
@@ -650,13 +643,6 @@ html {
 @media (max-width: 767px) {
   .navbar {
     justify-content: center;
-  }
-
-  .sticky-header {
-    position: absolute;
-    width: 100%;
-    z-index: 1000;
-    transition: top 0.3s;
   }
 
  .heroindexwork {
