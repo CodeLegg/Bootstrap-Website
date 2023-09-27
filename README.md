@@ -4,8 +4,8 @@
 
 At **Gold's Gym**, we provide a comprehensive fitness experience where members can access vital information about our facility, get to know our dedicated staff, and immerse themselves in the state-of-the-art fitness environment we offer.
 
-## Home Page
-<!-- ![Full Capture of Website](fullshot-1.jpeg) -->
+![Screen sizes of website](/assets/images/responsivewebsite.png)
+
 ***
 
 - **Technologies used**
