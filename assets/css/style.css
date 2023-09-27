@@ -433,6 +433,7 @@ header {
   left: 0;
 }
 
+
 /*********************************************
  *    MAIN STYLESHEET - MEMBERSHIPS    *
  *********************************************/
@@ -731,17 +732,7 @@ html {
   
 }
 @media (max-width: 991px) {
-.iframeyt {max-width: 75%;}
-}
-
-@media (max-width: 991px) and (orientation: landscape) {
-  .iframeyt {
-    max-width: 75%;
-  }
-
-
-  
-
+.iframeyt {max-width: 100%;}
 }
 
 /* Desktop view (screens larger than 992px) */
@@ -777,12 +768,19 @@ html {
 /* For screens 991px and lower, and landscape mode in mobile */
 @media (max-width: 991px) and (orientation: landscape) {
   /* Add a custom class to your dropdown menu */
+  .iframeyt {
+    max-width: 100%;
+  }
   .custom-dropdown-menu,
   .dropdown-menu.show {
     max-height: 200px; /* Set a maximum height for the dropdown */
     overflow-y: auto; /* Add a scrollbar when content overflows */
   }
   #about > div > div > div:nth-child(2){margin-top: 130px;}
+
+  .landpadding {padding-left: 20px !important;}
+
+  body > footer > section{margin-left: 60px;}
 }
 
 /* CSS for screens 991px and lower */
