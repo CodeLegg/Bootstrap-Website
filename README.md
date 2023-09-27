@@ -15,6 +15,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 - Javascript
 - Font Awesome icons
 - Google fonts
+- Bootstrap
 ***
 
 - **User Stories**
