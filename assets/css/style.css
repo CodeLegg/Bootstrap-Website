@@ -345,6 +345,10 @@ button:focus {
   flex: 0 0 calc(33.33% - 15px);
   max-width: calc(33.33% - 15px);
 }
+
+
+
+
 /*********************************************
  *    MAIN STYLESHEET -  WORKOUT BLOG    *
  *********************************************/
@@ -632,6 +636,12 @@ html {
   .card-body {
     padding: 1rem;
   }
+
+    
+    .landpadding {
+      padding-left: 20px !important;
+  }
+
 }
 /* membership br */
 @media (min-width: 320px) and (max-width: 767px) {
@@ -639,7 +649,7 @@ html {
     display: block;
   }
 }
-
+@media (min-width: 767px){body > footer > section > div > div h6 {font-size: 0.9rem;}}
 /* Mobile styles */
 @media (max-width: 767px) {
   .navbar {
@@ -668,6 +678,12 @@ html {
     padding: 20px;
     color: #fff;
     height: 300px;
+  }
+  
+  #classes .row > div[class^="col-"] {
+    flex: 0 0 calc(100%);
+    max-width: calc(100%);
+    justify-content: center;
   }
 }
 
@@ -780,13 +796,6 @@ html {
 
   .landpadding {padding-left: 20px !important;}
 
-  body > footer > section{margin-left: 60px;}
 }
 
-/* CSS for screens 991px and lower */
-@media (max-width: 991px) {
-  /* Override the default Bootstrap column classes */
-  .col-md-4 {
-    max-width: 100%;
-  }
-}
+
