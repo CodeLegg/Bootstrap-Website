@@ -8,17 +8,22 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 
 ***
 
-- **Technologies used**
+**Technologies used**
 
 - HTML
+
 - CSS
+
 - Javascript
+
 - Font Awesome icons
+
 - Google fonts
+
 - Bootstrap
 ***
 
-- **User Stories**
+**User Stories**
 
 - As a first-time visitor, I want to understand the website, so I can learn more about the gym.
 
@@ -258,7 +263,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   - I tested all the links and confirmed that all of them work and lead where they suppose to lead.
 ### Bugs
 
-  - trying to get the contact and about section to line up when clicked becuase of sticky header.
+  - trying to get the contact and about section to line up when clicked because of sticky header.
  
 ### Unsolved Bugs
 
@@ -267,10 +272,44 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 
 - HTML
   - No errors or warnings were found when passing through the official W3C validator.
+
+![Index](/assets/images/indexval.png)
+
+![Index](/assets/images/workoutsval.png)
+
+![Index](/assets/images/pplval.png)
+
+![Index](/assets/images/threeonethreeval.png)
+
+![Index](/assets/images/fullbodyval.png)
+
+![Index](/assets/images/upperlowerval.png)
+
+![Index](/assets/images/cardioval.png)
+
+![Index](/assets/images/brosplitval.png)
+
+![Index](/assets/images/yogaval.png)
+
+![Index](/assets/images/pilatesval.png)
+
+![Index](/assets/images/zumbaval.png)
+
 - CSS
   - No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+  
+![Index](/assets/images/cssval.png)
+
 - JAVASCRIPT
   - No errors or warnings were found when passing through the browser console.
+  
+![Index](/assets/images/playpauseval.png)
+  
+![Index](/assets/images/thankyouval.png)
+  
+![Index](/assets/images/sliderval.png)
+  
+![Index](/assets/images/scrollval.png)
 ### Deployment
 
  - The website was deployed to GitHub pages and can be accessed by the link: [Gold's Gym](https://codelegg.github.io/Bootstrap-Website/)
