@@ -90,7 +90,7 @@ a.dropdown-item.active{background-color: #edc700;
 
 .carousel-control-prev,
 .carousel-control-next {
-  margin: 0 1opx; /* Adjust the margin as needed */
+  margin: 0 10px; /* Adjust the margin as needed */
   z-index: 99;
 }
 
