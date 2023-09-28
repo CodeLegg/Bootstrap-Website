@@ -90,19 +90,19 @@ a.dropdown-item.active{background-color: #edc700;
 
 .carousel-control-prev,
 .carousel-control-next {
-  margin: 0 10px; /* Adjust the margin as needed */
+  margin: 0 10px; 
   z-index: 99;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  width: 20px; /* Adjust the width as needed */
-  height: 20px; /* Adjust the height as needed */
-} 
+  width: 20px; 
+  height: 20px; 
+}
 
 .carousel-control-prev,
 .carousel-control-next {
-margin: 0 0px; /* Adjust the margin as needed */
+margin: 0 0px; 
 width: 5%;
 }
 
@@ -219,8 +219,8 @@ button:focus {
 
 
 .copyright a {
-    color:#edc700; /* Change 'blue' to your desired color */
-    /* You can add other styling properties here */
+    color:#edc700; 
+    
 }
 
 
@@ -503,7 +503,8 @@ header {
     text-decoration: none; 
     color: inherit; 
 }
-.membership-tier:hover{       transition: transform 0.2s; 
+.membership-tier:hover{       
+  transition: transform 0.2s; 
  transform: scale(1.02); 
 }
 
@@ -571,7 +572,7 @@ html {
     margin-top: 58px;
   }
     a.navbar-brand {
-    margin-right: 20px; /* or any other value you prefer */
+    margin-right: 20px; 
 }
 }
 
@@ -585,7 +586,7 @@ html {
     margin-top: 108px;
   }
     .heroindexwork {
-    padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+    padding-top: 70px;
   }
 }
 
@@ -611,13 +612,13 @@ html {
   }
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-    width: 10px; /* Adjust the width as needed */
-    height: 10px; /* Adjust the height as needed */
+    width: 10px; 
+    height: 10px; 
   } 
   
 .carousel-control-prev,
 .carousel-control-next {
-  margin: 0 0px; /* Adjust the margin as needed */
+  margin: 0 0px; 
   width: 5%;
 }
 }
@@ -657,11 +658,11 @@ html {
   }
 
  .heroindexwork {
-    padding-top: 70px; /* Adjust as needed to avoid overlap with sticky header */
+    padding-top: 70px; 
   }
 
   .paddingtopforstickyheader {
-    padding-top: 40px; /* Adjust as needed to avoid overlap with sticky header */
+    padding-top: 40px; 
   }
 
   .contact-square h3,
@@ -729,13 +730,11 @@ html {
 }
 /* Common styles for screens 450px and above */
 @media (min-width: 450px) and (max-width: 767px) {
-  /* Target screens between 450px and 767px */
-
   /* Adjust the width of the membership cards */
   .membership-tier {
     width: 390px;
     height: 350px;
-    margin: 0 auto; /* Center the cards horizontally */
+    margin: 0 auto; 
 
   }
 }
@@ -776,21 +775,20 @@ html {
 
   /* Increase button font size and padding */
   .hero .btn-gold {
-    font-size: 24px; /* Adjust the font size as needed */
-    padding: 15px 30px; /* Adjust the padding as needed */
+    font-size: 24px; 
+    padding: 15px 30px; 
   }
 }
 
 /* For screens 991px and lower, and landscape mode in mobile */
 @media (max-width: 991px) and (orientation: landscape) {
-  /* Add a custom class to your dropdown menu */
   .iframeyt {
     max-width: 100%;
   }
   .custom-dropdown-menu,
   .dropdown-menu.show {
-    max-height: 200px; /* Set a maximum height for the dropdown */
-    overflow-y: auto; /* Add a scrollbar when content overflows */
+    max-height: 200px;
+    overflow-y: auto; 
   }
   #about > div > div > div:nth-child(2){margin-top: 130px;}
 
