@@ -54,9 +54,9 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
 - At the right side, there are navigation links:
   
   - **Home:** Leads to the home page.
-  - **Workouts:** Leads to the virtual tour page.
+  - **Workouts:** Leads to the Workouts Page.
   - **About Us:** Leads to the About Us section.
-  - **Sign Up:** Leads to the Sign Up section.
+  - **Sign Up:** Leads to the Sign Up Page.
   - **Contact:** Leads to the Contact section.
 
 ![Nav bar desktop](assets/images/nav-desktop.png)
@@ -91,7 +91,7 @@ At **Gold's Gym**, we provide a comprehensive fitness experience where members c
   
   - Image (Right) / (Center in tablet/mobile view)
   - Information about the Gym (left)
-  - Breif About Golds Gym History
+  - Brief Description about Golds Gym History
 
 ![About section](assets/images/aboutsection.png)
 ***
